@@ -3,6 +3,10 @@ layout: default
 title: Philosophy of Programming
 ---
 
+# Thinking in Code
+
++ “Premature optimization is the root of all evil.” -- Donald E. Knuth
+
 # Unix or GNU/Linux
 [Linux and the Unix Philosophy](http://book.douban.com/people/nourl/annotation/7564417/)
 
