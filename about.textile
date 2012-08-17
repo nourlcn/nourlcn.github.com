@@ -1,0 +1,11 @@
+---
+title: About nourlcn
+layout: master
+---
+
+h2. About @nourlcn
+
+
+h2. About This Site
+
+This site is built using the "Jekyll":http://github.com/mojombo/jekyll library and hosted on "GitHub":http://github.com/. The source code used to create this library is "publicly available on GitHub":http://github.com/mbleigh/mbleigh.github.com as well.

@@ -1,0 +1,7 @@
+auto: false
+markdown: rdiscount
+pygments: true
+url: http://blog.ownlinux.net
+destination: ../_site
+permalink: /:year/:month/:title.html
+

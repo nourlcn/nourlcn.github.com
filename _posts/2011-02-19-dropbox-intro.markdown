@@ -1,0 +1,11 @@
+--- 
+title: !binary |
+  MeWIhumSn+aJqeWuuURyb3Bib3ggMUc=
+
+type: post
+layout: post
+tags: 
+- Dropbox
+---
+<p><a title="dropbox" href="http://www.flickr.com/photos/56075931@N04/5478458900/"><img alt="dropbox" src="http://farm6.static.flickr.com/5099/5478458900_ed3339c902.jpg" border="0" /></a></p>  <p>Dropbox日前推出了一个<a href="http://www.qkqb.com/archives/Dropbox.html">扩容任务</a>，只要完成这个任务，就可以获得1GB的免费容量</p>  <p>具体步骤按顺序点击下面链接：</p>  <ol>   <li><a href="https://www.dropbox.com/dropquest2011">https://www.dropbox.com/dropquest2011</a> </li>    <li><a href="https://www.dropbox.com/dropquest2011/D">https://www.dropbox.com/dropquest2011/D</a> </li>    <li><a href="https://www.dropbox.com/dropquest2011/r?moves=2112442142036520365274001331470413407107103477657667765544576675675673473473654736745">Clicking here will solve the puzzle in step 6 for you</a> </li>    <li>输入：33739 </li>    <li><a href="https://www.dropbox.com/dropquest2011/b?board=OWIREDFSAODREFSIWAOWIDEFRSADEFAWSIORWESIAROFDREDAWSOIFRSAOIFWEDIFADOWSREFSAIORWEDEIDFRASWORAOFIEDSWEIDFAOSRWFAOISWDREEWIRSDFAOFRAISWEDOSRWEDOAIFDSFAWOREISWODREAIFIOSDFREAWFIWSDAEORIOSWFRADEWFRSAEODISOEWRIADFDFRSAEWOIADEWOIRFSARDOEFWISEAWODIRFS">Clicking here will solve the sudoku in step 10 for you</a> </li>    <li><a href="https://www.dropbox.com/dropquest2011/x">https://www.dropbox.com/dropquest2011/x</a> </li>    <li><a href="http://www.dropbox.com/dropquest2011/h">http://www.dropbox.com/dropquest2011/h</a> </li>    <li>输入： baff1e </li>    <li>输入：Drew Houston </li>    <li>将“1F75CC” 发送至 dropquest@dropbox.com </li>    <li><a href="https://www.dropbox.com/about">https://www.dropbox.com/about</a> </li>    <li><a href="https://www.dropbox.com/dropquest2011/R">https://www.dropbox.com/dropquest2011/R</a> </li>    <li><a href="https://www.dropbox.com/dropquest2011/t">https://www.dropbox.com/dropquest2011/t</a> </li>    <li>输入：badcabbage </li>    <li>输入：1133471056 </li>    <li>输入：Dr0pbox heaRts U </li> </ol>  <p>还没有Dropbox的朋友可以点击下面链接注册（需*要*翻*墙）：</p>  <h4>Dropbox的注册地址 <a href="http://db.tt/z1YGgnZ" target="_blank"><span style="color: #800000">点击这里</span></a></h4>
+

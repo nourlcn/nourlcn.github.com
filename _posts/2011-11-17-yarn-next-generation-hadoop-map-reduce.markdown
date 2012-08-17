@@ -1,0 +1,10 @@
+--- 
+title: YARN - Next Generation Hadoop Map-Reduce
+type: post
+layout: post
+tags: 
+- Hadoop
+- MapReduce
+- YARN
+---
+Yahoo！最初提出Next generation of Hadoop MapReduce的Slide如下：<br /><div style="width: 510px;"> <object height="426" width="510"> <param name="movie" value="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=hug-mapreducenext-110222165910-phpapp01&stripped_title=next-generation-mapreduce&userName=oom65" /><param name="allowFullScreen" value="true"/><param name="allowScriptAccess" value="always"/><param name="wmode" value="transparent"/><embed name="__sse7021721" src="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=hug-mapreducenext-110222165910-phpapp01&stripped_title=next-generation-mapreduce&userName=oom65" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" wmode="transparent" width="510" height="426"></embed> </object> <br /><div style="padding: 5px 0 12px;"> </div></div><br />关于Next Generation of Hadoop MapReduce,它的出发点/motivation无非是要解决在cluster sizes and workloads增大时，JobTracker的内存管理、thread管理、task调度问题，增强Hadoop的可扩展性及可靠性、可用性。<br /><br />当前Hadoop的问题是什么？<br /><ul><li>Scalability</li><ul><li>当前的Hadoop在扩展至4000个节点/40000个并发task，由于体系结构设计缺陷引起的内存问题、同步问题、thread/task管理问题突出； </li></ul></ul><ul><li>Single Point of Failure</li><ul><li>Master-Slave结构引</li></ul></ul><ul><li>restart is very tricky due to complex state.  </li></ul><ul><li>Hard partition of resources into map and reduce slots.</li></ul>其中，我觉得最严重的是扩展性和单点失效这两个问题。 <br /><br /><div style="clear: both; text-align: center;"><a href="http://ydn.zenfs.com/blogs/22/MapReduce_NextGen.jpg" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="247" src="http://ydn.zenfs.com/blogs/22/MapReduce_NextGen.jpg" width="400" /></a></div>Next Generation of Hadoop MapReduce的改进思路：<br /><br />  概括起来一句话：使用不同层次的Manager接管JobTracker的工作，避免Single Important Point的产生. 具体实现时,由以下三个Manager替换目前JobTracker的工作:<br /><ul><li>Resource Manager:负责与client及application交互,管理全局resource</li><li>Node Manager: 一个Node上一个Manager,负责管理节点上的task</li><li>Application Master:一个Master负责管理一个application</li></ul>

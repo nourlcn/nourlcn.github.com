@@ -1,0 +1,8 @@
+--- 
+title: What's Scala ?
+type: post
+layout: post
+tags: 
+- Scala
+---
+from <a href="https://twitter.com/laiyonghao" target="_blank">@laiyonghao</a><br /><br /> 原slideshare地址：<a href="http://www.slideshare.net/laiyonghao/scala-11816284">http://www.slideshare.net/laiyonghao/scala-11816284</a><br /><br /><div style="width: 510px;"><div style="text-align: center;"><object height="426" width="510"> <param name="movie" value="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=scala-120301080628-phpapp02&stripped_title=scala-11816284&userName=laiyonghao" /><param name="allowFullScreen" value="true"/><param name="allowScriptAccess" value="always"/><param name="wmode" value="transparent"/><embed name="__sse11816284" src="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=scala-120301080628-phpapp02&stripped_title=scala-11816284&userName=laiyonghao" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" wmode="transparent" width="510" height="426"></embed> </object> </div><div style="padding: 5px 0 12px;"><br /></div></div>

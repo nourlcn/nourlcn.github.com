@@ -1,0 +1,13 @@
+--- 
+title: !binary |
+  VklN55So5rOV5oC757uT
+
+type: post
+layout: post
+tags: 
+- Vim
+- !binary |
+  5pyq5YiG57G7
+
+---
+这是我见过的最强悍的Vim用法总结，忍不住转到这里，分享给大家：<br /><div style="clear: both; text-align: center;"><a href="http://3.bp.blogspot.com/-0O-mdJBOdR8/TniyujqjA6I/AAAAAAAAASQ/7H_Q3atq7os/s1600/vim_cheat_sheet_for_programmers_screen.png" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="492" src="http://3.bp.blogspot.com/-0O-mdJBOdR8/TniyujqjA6I/AAAAAAAAASQ/7H_Q3atq7os/s640/vim_cheat_sheet_for_programmers_screen.png" width="640" /></a></div><br />点此查看原图：<a href="http://michael.peopleofhonoronly.com/vim/vim_cheat_sheet_for_programmers_screen.png">http://michael.peopleofhonoronly.com/vim/vim_cheat_sheet_for_programmers_screen.png</a><br /><br />此图的作者网站：<a href="http://michael.peopleofhonoronly.com/vim/">http://michael.peopleofhonoronly.com/vim/</a>

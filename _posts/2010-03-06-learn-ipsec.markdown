@@ -1,0 +1,11 @@
+--- 
+title: !binary |
+  SVBzZWPliJ3mjqI=
+
+type: post
+layout: post
+tags: 
+- IPSec
+- Protocol
+---
+<p><span style="font-size:medium;">        IPSec在IP层上对数据包进行高强度的安全处理，提供数据源地验证、无连接数据完整性、数据机密性、抗重播和有限业务流机密性等安全服务。各种应用程序可以享用IP层提供的安全服务和密钥管理，而不必设计和实现自己的安全机制，这也是我们这个题目主要的价值和意义所在。使用IPsec，会减少密钥协商的开销，降低了产生安全漏洞的可能性。IPSec可连续或递归应用，在路由器、防火墙、主机和通信链路上配置，实现端到端安全、虚拟专用网络（VPN）和安全隧道技术。</span></p><span style="font-size:medium;"><br /></span><p><span style="font-size:medium;">IPsec实现方案：</span></p><p><span style="font-size:medium;">1. 方案一（优点：IPsec模块独立；缺点：多次重复处理IP包，效率低）</span></p><p><span style="font-size:medium;">对于接受包处理，当链路层数据到达网卡时，首先交给内核的标准IP处理程序。对于本地包，在进行完IP分片重组等IP层进入包处理后，准备传给传输层。此时调用IPSec进入处理模块。经过IPSec进入处理后，重新组装IP包，发到内核的标准IP处理入口。再经过一次IP处理后，发送到传输层进行进一步处理。而对于外地包，则需要转发。转发时需要进行分片处理。在发送到网卡前，调用IPSec外出处理模块。经过IPSec外出处理后，重组外出包，并重新路由、分片处理。然后发送到物理接口（网卡）。</span></p><p><span style="font-size:medium;">对于发送包处理，当传输层数据到达时，首先交给内核的标准IP处理程序。在进行完IP的分片等IP层外出包处理及路由后，准备发送到链路层。此时调用IPSec外出处理模块。经过IPSec外出处理后，重新发送到内核的标准IP层外出处理入口。然后重新进行IP分片及其它IP层外出处理，并重新路由。最后将包发送到发送到链路层，进入网卡。</span></p><p><span style="font-size:medium;"><br /></span></p><p><span style="font-size:medium;">2. 方案二（优点：效率高；缺点：技术难度大，需要熟悉内核网络部分代码）</span></p><p><span style="font-size:medium;">通过修改原有IP层代码，实现IP+IPsec功能，形成新的IP层。</span></p><p><span style="font-size:medium;">接受包处理：对于链路层来的包，首先进行路由。对于本地包，先进行分片重组。然后检查SAD，看是否是经过IPSec处理过的包。如果是，则检查SA的状态、生存期，然后根据找到的SA对包进行认证、解密。处理完后交给传输层。如果未经过IPSec处理，则再看该包是否允许进入，如果允许，则进行正常的IP处理，发到传输层；如果不允许，就将包丢弃。对于外地包，将进行转发。这时先检查策略库，如果策略要求对该转发包进行IPSec处理，则将进一步查找SAD库，找到相应的SA。然后根据SA对转发包加认证、加密。并对IPSec处理后的包再次进行分片。最后将分片发送到相应的物理接口；如果策略要求将该转发包绕过IPSec处理，则将直接进入分片处理，并发送到相应物理接口；如果策略要求将该包丢弃，则丢弃该包，并报错。<br /></span></p><p><span style="font-size:medium;">发送包处理：对于传输层来的包，首先检查SPD，看是否需要进行IPSec。如果需要，则查找SAD。根据找到的SA进行IPSec外出包处理，处理完后进行分片等其它IP外出处理及路由，然后将包发送到链路层处理。如果不需要，则将进行正常的IP层外出处理，并将包发到链路层。</span></p><p><span style="font-size:medium;"><br /></span></p><p><span style="font-size:x-small;">参考资料：</span></p><p><span style="font-size:x-small;">维基百科词条 IPsec</span></p><p><span style="font-size:medium;"><span style="font-size:x-small;">共创软件联盟：基于Linux和IPsec的VPN</span><br /></span></p>

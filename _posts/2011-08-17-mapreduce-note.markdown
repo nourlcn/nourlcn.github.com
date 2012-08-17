@@ -1,0 +1,8 @@
+--- 
+title: MapReduce Note
+type: post
+layout: post
+tags: 
+- MapReduce
+---
+<p> </p>  <ol>   <p>最近读了一篇关于MR的文章，简单记录要点如下：</p>    <p><a name="goal"><strong>Goal</strong></a></p>    <blockquote>     <p>parallelize large computations easilly</p>   </blockquote>    <ol></ol>    <p><a name="main_contribution"><strong>Main Contribution</strong></a></p>    <blockquote>     <p>1.simple and powerful interface</p>      <p>2.enable automatic parallelization and distribution of large-scale computations</p>      <p>3.implementation with high performance </p>   </blockquote>    <ol></ol>    <p><a name="系统运行中关注的问题"><strong>系统运行中关注的问题</strong></a></p>    <blockquote>     <p>1.partitioning the input data </p>      <p>2.scheduling the program's execution across machines</p>      <p>3.handling failures</p>      <p>4.managing inter-machine comomunications</p>   </blockquote>    <ol></ol>    <p><a name="master_data_structure"><strong>Master Data Structure</strong></a></p>    <blockquote>     <p>1.state of each map/reduce task(idle, in-progress, completed)</p>      <p>2.id of worker machine</p>      <p><strong>3.location of data(input or output) is spread through master.</strong></p>   </blockquote>    <ol></ol>    <p><a name="fault_tolerance"><strong>Fault tolerance</strong></a></p>    <blockquote>     <p><strong>mainly used re-excution to avoid failure</strong></p>      <p>1.worker failure</p>      <p>..master ping worker</p>      <p>..re-excution task on a failure because output is inacessible.</p>      <p>2.master failure</p>      <p>..checkpoint, write backup date, if failure, new copy of master run from the latest checkpoint.</p>      <p>3.Semantics in the Presence of Failures</p>   </blockquote> </ol>

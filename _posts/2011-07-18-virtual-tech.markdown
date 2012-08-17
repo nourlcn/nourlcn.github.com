@@ -1,0 +1,10 @@
+--- 
+title: !binary |
+  6Jma5ouf5YyW
+
+type: post
+layout: post
+tags: 
+- Virtualization
+---
+<p>关于虚拟化，谈一下它的内容、类型及技术实现方式：</p>  <p>1. 虚拟化Content</p>  <p>    虚拟化一般包括以下几个部分的虚拟实现：</p>  <blockquote>   <p>+网络虚拟化</p>    <p>+IO虚拟化</p>    <p>+内存虚拟化</p>    <p>+桌面虚拟化</p>    <p>+应用虚拟化</p>    <p>+等等</p> </blockquote>  <p>2. 虚拟化类型</p>  <p>    虚拟化一般包括两种类型：</p>  <blockquote>   <p>+第一种</p> </blockquote>  <blockquote>   <p>即硬件之上安装Hypervisor，Hpyervisor之上运行多个虚拟实例。这种虚拟类型可以提供接近物理机的性能，但是安装和使用不太方便。VMware ESX即这种虚拟方式。</p> </blockquote>  <blockquote>   <p>+第二种</p> </blockquote>  <blockquote>   <p>即硬件之上安装宿主机操作系统，在操作系统之上实现虚拟机管理程序（VMM），VMM之上（之内）实现虚拟化。这种方式下性能会有损失，但安装使用方便，VMware Workstation及Virtual Box即这种虚拟方式。</p> </blockquote>  <p>3. 虚拟化技术及实现</p>  <p>    一般虚拟化技术可以分为以下几类:</p>  <blockquote>   <p>+全虚拟化</p> </blockquote>  <blockquote>   <p>  VMM存在于guest OS及硬件之间，guest OS无需修改就能运行，VMM捕捉guest OS及硬件之间的特权指令，对指令进行翻译。这种虚拟方式可以通过引入硬件辅助虚拟技术提升性能，是目前主流的虚拟技术（未来很有可能也是）。</p> </blockquote>  <blockquote>   <p>+半虚拟化</p> </blockquote>  <blockquote>   <p>  半虚拟化与全虚拟化的主要区别点之一，应该是需要修改操作系统。VMM存在于guest OS及硬件之间，但VMM之上运行的操作系统需要经过使其支持虚拟化的修改，操作系统的底层集成了虚拟化代码。</p>    <p>由于对操作系统底层进行了修改，VMM不需要再捕捉敏感的/特权的指令，性能也比全虚拟化要好一些。典型的虚拟化产品就是Xen。</p>    <p>  之前Linus拒绝将Xen集成到Linux内核里面，因为这需要改动大量的内核代码。</p>    <p>  前段时间得到的消息是，Xen已经集成到了最新的Linux内核中，Xen自身和Linux内核均有写改动，我还是比较看好Xen和KVM的。</p> </blockquote>  <blockquote>   <p>+操作系统级虚拟化</p> </blockquote>  <blockquote>   <p>  操作系统位于硬件之上，这种虚拟化是在操作系统之上通过隔离技术，虚拟出多个虚拟机实例。</p>    <p>  这种虚拟技术虚拟出来的OS依赖于Host OS，并且需要修改Host OS的代码，虚拟出来的实例隔离性依赖于虚拟技术及对Host OS的修改，应用不是很普遍。</p> </blockquote>  <blockquote>   <p>+硬件仿真虚拟化</p> </blockquote>  <blockquote>   <p>  硬件仿真是在硬件之上，通过软件模拟出独立的硬件，在模拟的硬件之上运行独立的虚拟os，因为os依赖的硬件是通过软件模拟的，指令和操作需要模拟硬件翻译并在真实硬件上执行，再翻译执行的结果给上层os，所以这种虚拟技术的性能不好。</p> </blockquote>  <blockquote>   <p>+硬件辅助虚拟化</p> </blockquote>  <blockquote>   <p>  主要是intel和AMD两大芯片厂商，将全虚拟化和半虚拟化需要的软件过程集成到硬件中，来提高虚拟的性能。</p>    <p>  众所周知，固化在硬件中的程序效率要远远高于用软件来实现相同的功能。通过硬件辅助虚拟化，可以大大提升全虚拟化和半虚拟化的性能。</p></blockquote>

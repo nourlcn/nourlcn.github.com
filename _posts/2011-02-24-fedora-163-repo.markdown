@@ -1,0 +1,13 @@
+--- 
+title: !binary |
+  RmVkb3Jh5L2/55So572R5piT6ZWc5YOP
+
+type: post
+layout: post
+tags: 
+- !binary |
+  5pyq5YiG57G7
+
+---
+使用帮助地址：<br/><br/><a href="http://mirrors.163.com/.help/fedora.html" target="_blank">http://mirrors.163.com/.help/fedora.html</a><br/><br/>镜像使用方法：<br/><br/>下载<a href="http://mirrors.163.com/.help/fedora-163.repo" target="_blank">fedora-163.repo</a>和<a href="http://mirrors.163.com/.help/fedora-updates-163.repo" target="_blank">fedora-updates-163.repo</a><br/><br/>放入/etc/yum.repos.d/<br/><br/>运行yum makecache生成缓存
+

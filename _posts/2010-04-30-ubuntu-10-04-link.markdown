@@ -1,0 +1,12 @@
+--- 
+title: !binary |
+  VWJ1bnR1MTAuMDTmraPlvI/niYjlj5HluIPvvIFJdOKAmXMgdGltZSBmb3Ig
+  YSBjaGFuZ2XvvIE=
+
+type: post
+layout: post
+tags: 
+- Ubuntu
+---
+原文见：<a href="http://www.ownlinux.cn/2010/04/30/ubuntu10-04lts.html" target="_blank">http://www.ownlinux.cn/2010/04/30/ubuntu10-04lts.html</a>
+
