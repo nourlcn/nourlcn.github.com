@@ -5,8 +5,31 @@ layout: master
   <span class='date'>{{page.date | date_to_string}}</span>
   <h1><a href='{{page.url}}'>{{page.title}}</a></h1>
   <div class='body'>{{ content }}</div>
-</div>
 
+  <!-- Baidu Button BEGIN -->
+  <div id="bdshare" class="bdshare_t bds_tools_32 get-codes-bdshare">
+ 	 <a class="bds_tsina"></a>
+	 <a class="bds_tqq"></a>
+	 <a class="bds_renren"></a>
+	 <a class="bds_douban"></a>
+	 <a class="bds_t163"></a>
+	 <a class="bds_ff"></a>
+	 <a class="bds_twi"></a>
+	 <a class="bds_fbook"></a>
+	 <a class="bds_linkedin"></a>
+	 <a class="bds_diandian"></a>
+	 <span class="bds_more">更多</span>
+	 <a class="shareCount"></a>
+  </div>
+  <script type="text/javascript" id="bdshare_js" data="type=tools&amp;uid=1211571" ></script>
+  <script type="text/javascript" id="bdshell_js"></script>
+  <script type="text/javascript">
+	  document.getElementById("bdshell_js").src = "http://share.baidu.com/static/js/shell_v2.js?cdnversion=" + new Date().getHours();
+  </script>
+  <!-- Baidu Button END -->
+
+</div>
+<br />
 <div class="related">
   <br /> 
   <h4>相关文章</h4>
