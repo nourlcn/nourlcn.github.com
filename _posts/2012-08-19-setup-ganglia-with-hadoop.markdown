@@ -7,6 +7,10 @@ tags:
 - Hadoop
 ---
 
+<a href="http://www.flickr.com/photos/nourlcn/7821648358/" title="Flickr 上 nourlcn 的 setup-ganglia-with-hadoop"><img src="http://farm9.staticflickr.com/8442/7821648358_5426ab0e3e_z.jpg" width="640" height="279" alt="setup-ganglia-with-hadoop"></a>
+
+---
+
 操作系统：Ubuntu 12.04 LTS
 
 集群环境:
