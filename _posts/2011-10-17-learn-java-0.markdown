@@ -7,4 +7,164 @@ layout: post
 tags: 
 - Java
 ---
-无意中翻出了我大三那年在科协写的《Java学习笔记》，现在看看都忘光了。<br /><br />贴出来供入门的童鞋拍砖！<br /><br />《Java学习笔记（上）》<br /><br />  <br /><div style="margin-bottom: 0cm;"><span style="color: red;"><span style="font-family: 黑体,SimHei;"><span style="font-size: medium;">关于对象</span></span></span></div><div style="margin-bottom: 0cm;"><span style="font-family: 宋体,SimSun;"><span style="font-size: small;">= =    </span></span><span style="font-size: small;">表示引用的变量的值是否相等</span></div><div style="margin-bottom: 0cm;"><span style="font-family: 宋体,SimSun;"><span style="font-size: small;">equal() </span></span><span style="font-size: small;">表示对象的内容是否相同</span></div><div style="margin-bottom: 0cm;"><span style="font-family: 宋体,SimSun;"><span style="font-size: small;">String str1 = new string("abc");</span></span></div><div style="margin-bottom: 0cm;"><span style="font-family: 宋体,SimSun;"><span style="font-size: small;">String str2 = new string("abc");</span></span></div><div style="margin-bottom: 0cm;"><span style="font-family: 宋体,SimSun;"><span style="font-size: small;">Str1==str2 </span></span><span style="font-size: small;">返回的是</span><span style="font-family: 宋体,SimSun;"><span style="font-size: small;">false</span></span></div><div style="margin-bottom: 0cm;"><br /></div><div style="margin-bottom: 0cm;"><span style="color: red;"><span style="font-family: 黑体,SimHei;"><span style="font-size: medium;">关于构造方法</span></span></span></div><div style="margin-bottom: 0cm;"><span style="font-family: Liberation Serif,serif;">P1 = new person(string name,int age);</span></div><div style="margin-bottom: 0cm;"><span style="font-size: small;">当</span><span style="font-family: 宋体,SimSun;"><span style="font-size: small;">new</span></span><span style="font-size: small;">一个对象时，第一步是在堆中申请空间，第二步并不是执行构造方法中的赋值，而是先执行显示的变量赋值，将</span><span style="font-family: 宋体,SimSun;"><span style="font-size: small;">name age </span></span><span style="font-size: small;">的值置为显示赋值的值，第三步才是执行构造方法中的函数赋值</span></div><div style="margin-bottom: 0cm;"><br /></div><div style="margin-bottom: 0cm;"><span style="color: red;"><span style="font-family: 黑体,SimHei;"><span style="font-size: medium;">关于</span></span><span style="font-family: 黑体,SimHei;"><span style="font-size: medium;">this</span></span></span></div><div style="margin-bottom: 0cm;"><span style="font-family: Liberation Serif,serif;"> <span style="font-family: 宋体,SimSun;"><span style="font-size: small;">this</span></span></span><span style="font-size: small;">关键字在</span><span style="font-family: Liberation Serif,serif;"><span style="font-family: 宋体,SimSun;"><span style="font-size: small;">java</span></span></span><span style="font-size: small;">程序里的作用和它的词义很接近，它在函数内部就是这个函数所属的对象的引用变量。  </span> </div><div style="margin-bottom: 0cm;"><span style="font-size: small;">个人理解：</span><span style="font-family: 宋体,SimSun;"><span style="font-size: small;">this</span></span><span style="font-size: small;">就是指代调用自己的那个对象，因为在编写方法的时候并不知道将来会是哪个对象调用自己，所以如果在自己这个方法中想调用其他的方法，无法确定“对象</span><span style="font-family: 宋体,SimSun;"><span style="font-size: small;">.</span></span><span style="font-size: small;">方法”中的对象，设计</span><span style="font-family: 宋体,SimSun;"><span style="font-size: small;">this</span></span><span style="font-size: small;">指针实现这一点。自己运行的时候一定是有一个对象存在的，调用自己的那个对象就是</span><span style="font-family: 宋体,SimSun;"><span style="font-size: small;">this</span></span></div><div style="margin-bottom: 0cm;"><br /></div><div style="margin-bottom: 0cm;">同一个类中，一个成员方法可以直接调用同类的另一个成员方法，省略<span style="font-family: Liberation Serif,serif;">this</span>，这也是可以的</div><div style="margin-bottom: 0cm;"><span style="font-family: Liberation Serif,serif;">{</span></div><div style="margin-bottom: 0cm; text-indent: 0.74cm;">…………</div><div style="margin-bottom: 0cm; text-indent: 0.74cm;"><span style="font-family: Liberation Serif,serif;">Void fun1(){}</span></div><div style="margin-bottom: 0cm; text-indent: 0.74cm;"><span style="font-family: Liberation Serif,serif;">Void fun2(){</span></div><div style="margin-bottom: 0cm; margin-left: 0.74cm; text-indent: 0.74cm;"><span style="font-family: Liberation Serif,serif;">Fun1();</span></div><div style="margin-bottom: 0cm; text-indent: 0.74cm;"><span style="font-family: Liberation Serif,serif;">}</span></div><div style="margin-bottom: 0cm; text-indent: 0.74cm;">…………</div><div style="margin-bottom: 0cm;"><span style="font-family: Liberation Serif,serif;">}</span></div><div style="margin-bottom: 0cm;">有些情况非用<span style="font-family: Liberation Serif,serif;">this</span>不可，例如：</div><div style="margin-bottom: 0cm;"><span style="font-family: Liberation Serif,serif;">A </span>构造函数 <span style="font-family: Liberation Serif,serif;">public person(string name){</span></div><div style="margin-bottom: 0cm; margin-left: 1.48cm; text-indent: 0.74cm;"><span style="font-family: Liberation Serif,serif;">this.name = name;             //</span>防止参数和成员变量重名；</div><div style="margin-bottom: 0cm; margin-left: 0.74cm; text-indent: 0.74cm;"><span style="font-family: Liberation Serif,serif;">}</span></div><div style="margin-bottom: 0cm;"><span style="font-family: Liberation Serif,serif;">B<span style="font-family: 宋体,SimSun;"><span style="font-size: small;"> </span></span></span><span style="font-size: small;">可以在一个构造方法里调用其他重载的构造方法，不是用构造方法名，而是用</span><span style="font-family: Liberation Serif,serif;"><span style="font-family: 宋体,SimSun;"><span style="font-size: small;">this(</span></span></span><span style="font-size: small;">参数列表</span><span style="font-family: Liberation Serif,serif;"><span style="font-family: 宋体,SimSun;"><span style="font-size: small;">)</span></span></span><span style="font-size: small;">的形式，根据其中的参数列表，选择相应的构造方法。 </span> </div><div style="margin-bottom: 0cm;"><span style="font-family: 宋体,SimSun;"><span style="font-size: small;">C </span></span><span style="font-size: small;">特殊调用情况</span></div><div style="margin-bottom: 0cm;"><br /></div><div style="margin-bottom: 0cm;"><span style="color: red;"><span style="font-family: 黑体,SimHei;"><span style="font-size: medium;">关于垃圾回收</span></span></span></div><div style="margin-bottom: 0cm;"><span style="font-family: 宋体,SimSun;"><span style="font-size: small;">c++</span></span><span style="font-size: small;">中的析构方法 </span> </div><div style="margin-bottom: 0cm; margin-left: 0.74cm; text-indent: 0.74cm;"><span style="font-size: small;">释放对象在生成中占用的资源</span></div><div style="margin-bottom: 0cm;"><span style="font-family: 宋体,SimSun;"><span style="font-size: small;">java</span></span><span style="font-size: small;">中的</span><span style="font-family: 宋体,SimSun;"><span style="font-size: small;">finalize()</span></span><span style="font-size: small;">方法 </span> </div><div style="margin-bottom: 0cm; margin-left: 0.74cm; text-indent: 0.74cm;"><span style="font-size: small;">对象被彻底清除之前被调用，垃圾回收器是不能控制的。</span></div><div style="margin-bottom: 0cm; margin-left: 0.74cm; text-indent: 0.74cm;"><span style="font-family: 宋体,SimSun;"><span style="font-size: small;">Public void finalize() </span></span><span style="font-size: small;">是被自动调用的，但不一定什么时候调用。</span></div><div style="margin-bottom: 0cm;"><span style="font-family: 宋体,SimSun;"><span style="font-size: small;">System.gc</span></span><span style="font-size: small;">（）的作用 垃圾回收器</span></div><div style="margin-bottom: 0cm; margin-left: 0.74cm; text-indent: 0.74cm;"><span style="font-size: small;">指派垃圾回收器收回垃圾</span></div><div style="margin-bottom: 0cm;"><br /></div><div style="margin-bottom: 0cm;"><span style="font-size: small;">每个类中都有一个</span><span style="font-family: 宋体,SimSun;"><span style="font-size: small;">equals</span></span><span style="font-size: small;">方法和</span><span style="font-family: 宋体,SimSun;"><span style="font-size: small;">finalize</span></span><span style="font-size: small;">方法</span></div><div style="margin-bottom: 0cm;"><br /></div><div style="margin-bottom: 0cm;"><span style="font-size: small;">不管构造方法还是析构方法 在调用这个方法时，对象还是存在的。否则怎么调用对象的方法呢？！</span></div><div style="margin-bottom: 0cm;"><br /></div><div style="margin-bottom: 0cm;"><br /></div><div style="margin-bottom: 0cm;"><span style="color: red;"><span style="font-family: 黑体,SimHei;"><span style="font-size: medium;">关于函数参数传递</span></span></span></div><div style="margin-bottom: 0cm;"><span style="font-size: small;">直接传递成员给</span><span style="font-family: 宋体,SimSun;"><span style="font-size: small;">change</span></span><span style="font-size: small;">函数，</span><span style="font-family: 宋体,SimSun;"><span style="font-size: small;">change</span></span><span style="font-size: small;">函数改变成员的值，不会对对象中的成员有任何影响</span></div><div style="margin-bottom: 0cm;"><span style="font-size: small;">如果直接传递对象给</span><span style="font-family: 宋体,SimSun;"><span style="font-size: small;">change</span></span><span style="font-size: small;">，改变对象中的值时有影响，因为传递对象的名字，等于传递了堆中变量的地址，被两个句柄引用。</span></div><div style="margin-bottom: 0cm;"><br /></div><div style="margin-bottom: 0cm;"><span style="color: red;"><span style="font-family: 黑体,SimHei;"><span style="font-size: medium;">关于</span></span><span style="font-family: 黑体,SimHei;"><span style="font-size: medium;">static </span></span><span style="font-family: 黑体,SimHei;"><span style="font-size: medium;">静态方法</span></span></span></div><div style="margin-bottom: 0cm;"><span style="font-size: small;">编写一个类的本质是什么？是描述这个类的对象一般具有的的属性和方法！</span></div><div style="margin-bottom: 0cm;"><br /></div><div style="margin-bottom: 0cm;"><span style="font-family: 宋体,SimSun;"><span style="font-size: small;">Static</span></span><span style="font-size: small;">方法：无论是否产生了对象或无论产生了多少对象的情况下，某些特定的数据在内存空间里只有一份，可以使用</span><span style="font-family: 宋体,SimSun;"><span style="font-size: small;">static</span></span><span style="font-size: small;">方法，这个方法所有的对象共享内存的一份拷贝，在内存中却只有一份。</span></div><div style="margin-bottom: 0cm;"><span style="font-size: small;"><b>注意：</b></span></div><ol><li><div style="margin-bottom: 0cm;">静态方法只能调用该类中的静态变量（包括成员和方法），不能调用非静态的变量。这是因为静态方法的使用不需要声明一个对象，而非静态的变量在使用之前必须指定一个对象</div></li><li><div style="margin-bottom: 0cm;">静态方法中不能使用<span style="font-family: Liberation Serif,serif;">this</span>和<span style="font-family: Liberation Serif,serif;">super</span>，道理同上</div></li><li><div style="margin-bottom: 0cm;"><span style="font-family: Liberation Serif,serif;">Main</span>方法是静态的，因为<span style="font-family: Liberation Serif,serif;">JVM</span>在调用<span style="font-family: Liberation Serif,serif;">main</span>的时候不需要他的所属对象到底是谁，同理，<span style="font-family: Liberation Serif,serif;">main</span>中调用类中的非静态方法时，必须先有一个对象，使用该对象才可以调用类中的非静态变量。<span style="font-family: Liberation Serif,serif;"> </span></div></li><li><div style="margin-bottom: 0cm;">一个类中可以使用不包含在任何方法体中的静态代码块<span style="font-family: Liberation Serif,serif;">(static  block )</span>，当类被载入时，静态代码块被执行，且只被执行一次，静态块经常用来进行类属性的初始化。</div></li><li><div style="margin-bottom: 0cm;">类中的静态代码块被自动执行，尽管我们产生了类的多个实例对象，但其中的静态代码块只被执行了一次。当一个程序中用到了其他的类，类是在第一次被使用的时候才被装载，而不是在程序启动时就装载程序中所有可能要用到的类。<span style="font-family: Liberation Serif,serif;">-------</span>》通过这一点可以推测到，在<span style="font-family: Liberation Serif,serif;">java</span>程序的<span style="font-family: Liberation Serif,serif;">import</span>语句中导入的任何包和类，只有被使用了才会被编译到代码模块中，而不是<span style="font-family: Liberation Serif,serif;">import</span>的包和类都被编译！</div></li></ol><div style="margin-bottom: 0cm;"><br /></div><div style="margin-bottom: 0cm;"><br /></div><div style="margin-bottom: 0cm;"><span style="color: red;"><span style="font-family: 黑体,SimHei;"><span style="font-size: medium;">关于内部类</span></span></span></div><div style="margin-bottom: 0cm;"><span style="font-size: small;">内部类可以使用外部类的变量，包括</span><span style="font-family: 宋体,SimSun;"><span style="font-size: small;">private</span></span><span style="font-size: small;">类型的变量；但是，外部类不能使用内部类的变量</span></div><div style="margin-bottom: 0cm;"><span style="font-size: small;">内部类的好处：</span></div><div style="margin-bottom: 0cm;"><span style="font-family: 宋体,SimSun;"><span style="font-size: small;">1.</span></span><span style="font-size: small;">代码紧凑，模块化强！</span></div><div style="margin-bottom: 0cm;"><span style="font-family: 宋体,SimSun;"><span style="font-size: small;">2.</span></span><span style="font-size: small;">例如 类</span><span style="font-family: 宋体,SimSun;"><span style="font-size: small;">A</span></span><span style="font-size: small;">调用类</span><span style="font-family: 宋体,SimSun;"><span style="font-size: small;">B</span></span><span style="font-size: small;">的对象，调用的过程中类</span><span style="font-family: 宋体,SimSun;"><span style="font-size: small;">B</span></span><span style="font-size: small;">又需要得到类</span><span style="font-family: 宋体,SimSun;"><span style="font-size: small;">A</span></span><span style="font-size: small;">的成员变量，如果写成两个类，两个类之间的参数传递很麻烦！！用内部类很简单！！</span></div><div style="margin-bottom: 0cm;"><br /></div><div style="margin-bottom: 0cm;"><span style="font-size: small;">注意：</span></div><div style="margin-bottom: 0cm;"><span style="font-family: 宋体,SimSun;"><span style="font-size: small;">1 </span></span><span style="font-size: small;"><span style="background: none repeat scroll 0% 0% rgb(255, 255, 0);"><span style="font-style: normal;">如果内部类定义为</span></span></span><span style="font-family: 宋体,SimSun;"><span style="font-size: small;"><span style="font-style: normal;"><span style="background: none repeat scroll 0% 0% rgb(255, 255, 0);">static</span></span></span></span><span style="font-size: small;"><span style="background: none repeat scroll 0% 0% rgb(255, 255, 0);"><span style="font-style: normal;">类型的，那么它相当于一个外部类，</span></span></span><span style="font-family: 宋体,SimSun;"><span style="font-size: small;"><span style="font-style: normal;"><span style="background: none repeat scroll 0% 0% rgb(255, 255, 0);">static</span></span></span></span><span style="font-size: small;"><span style="background: none repeat scroll 0% 0% rgb(255, 255, 0);"><span style="font-style: normal;">的内部类中可声明</span></span></span><span style="font-family: 宋体,SimSun;"><span style="font-size: small;"><span style="font-style: normal;"><span style="background: none repeat scroll 0% 0% rgb(255, 255, 0);">static</span></span></span></span><span style="font-size: small;"><span style="background: none repeat scroll 0% 0% rgb(255, 255, 0);"><span style="font-style: normal;">成员，但是，非</span></span></span><span style="font-family: 宋体,SimSun;"><span style="font-size: small;"><span style="font-style: normal;"><span style="background: none repeat scroll 0% 0% rgb(255, 255, 0);">static</span></span></span></span><span style="font-size: small;"><span style="background: none repeat scroll 0% 0% rgb(255, 255, 0);"><span style="font-style: normal;">的内部类中的成员是不能声明为</span></span></span><span style="font-family: 宋体,SimSun;"><span style="font-size: small;"><span style="font-style: normal;"><span style="background: none repeat scroll 0% 0% rgb(255, 255, 0);">static</span></span></span></span><span style="font-size: small;"><span style="background: none repeat scroll 0% 0% rgb(255, 255, 0);"><span style="font-style: normal;">的。</span></span></span></div><div style="margin-bottom: 0cm;"><span style="font-family: 宋体,SimSun;"><span style="font-size: small;">2 </span></span><span style="font-size: small;">在内部类对象保存了一个对外部类对象的引用，当内部类的成员方法中访问某一变量时，如果在该方法和内部类中都没有定义过这个变量，内部类中对</span><span style="font-family: 宋体,SimSun;"><span style="font-size: small;">this</span></span><span style="font-size: small;">的引用会被传递给那个外部类对象的引用</span></div><div style="margin-bottom: 0cm;"><span style="font-family: 宋体,SimSun;"><span style="font-size: small;">3 </span></span><span style="font-size: small;">如果函数的局部变量（函数的形参也是局部变量），内部类的成员变量，外部类的成员变量重名，我们应该按下面的程序代码所使用的方式来明确指定我们真正要访问的变量。 </span> </div><div style="margin-bottom: 0cm;"><span style="font-family: Liberation Serif,serif;">public class Outer</span></div><div style="margin-bottom: 0cm;"><span style="font-family: Liberation Serif,serif;">{<br />private int size;<br />public class Inner</span></div><div style="margin-bottom: 0cm;"><span style="font-family: Liberation Serif,serif;"> {<br />private int size;<br />public void doStuff( int size)</span></div><div style="margin-bottom: 0cm;"><span style="font-family: Liberation Serif,serif;">  {<br /><span style="background: none repeat scroll 0% 0% rgb(255, 255, 0);">         size++; // </span></span><span style="background: none repeat scroll 0% 0% rgb(255, 255, 0);">引用的是<span style="font-family: Liberation Serif,serif;">doStuff</span></span><span style="font-family: Liberation Serif,serif;"></span><span style="background: none repeat scroll 0% 0% rgb(255, 255, 0);">函数的形参</span></div><div style="margin-bottom: 0cm;"><span style="background: none repeat scroll 0% 0% rgb(255, 255, 0);">    <span style="font-family: Liberation Serif,serif;">   this.size++; //</span></span><span style="font-family: Liberation Serif,serif;"></span><span style="background: none repeat scroll 0% 0% rgb(255, 255, 0);">引用的是<span style="font-family: Liberation Serif,serif;">Inner</span></span><span style="font-family: Liberation Serif,serif;"></span><span style="background: none repeat scroll 0% 0% rgb(255, 255, 0);">类中的成员变量</span></div><div style="margin-bottom: 0cm;"><span style="background: none repeat scroll 0% 0% rgb(255, 255, 0);">    <span style="font-family: Liberation Serif,serif;">   Outer.this.size++; // </span></span><span style="font-family: Liberation Serif,serif;"></span><span style="background: none repeat scroll 0% 0% rgb(255, 255, 0);">引用的<span style="font-family: Liberation Serif,serif;">Outer</span></span><span style="font-family: Liberation Serif,serif;"></span><span style="background: none repeat scroll 0% 0% rgb(255, 255, 0);">类中的成员变量</span></div><div style="margin-bottom: 0cm;"><span style="font-family: Liberation Serif,serif;">  }</span></div><div style="margin-bottom: 0cm;"><span style="font-family: Liberation Serif,serif;"> }</span></div><div style="margin-bottom: 0cm;"><span style="font-family: Liberation Serif,serif;">}</span></div><div style="margin-bottom: 0cm;"><span style="font-family: Liberation Serif,serif;">4.</span><span style="font-size: small;">在方法中定义的内部类只能访问方法中的</span><span style="font-family: Liberation Serif,serif;"><span style="font-family: 宋体,SimSun;"><span style="font-size: small;"><span style="background: none repeat scroll 0% 0% rgb(255, 255, 0);">final</span></span></span></span><span style="background: none repeat scroll 0% 0% rgb(255, 255, 0);"><span style="font-size: small;">类型</span></span><span style="font-size: small;">的局部变量，</span><span style="color: blue;"><span style="font-size: small;">不能访问方法中的普通局部变量</span></span><span style="font-size: small;">，用</span><span style="font-family: Liberation Serif,serif;"><span style="font-family: 宋体,SimSun;"><span style="font-size: small;">final</span></span></span><span style="font-size: small;">定义的局部变量相当于是一个常量，它的生命周期超出方法运行的生命周期。在类中定义的局部变量，编译器可以自动初始化，但在方法中定义的局部变量，编译器是不可以进行初始化的，必须由程序员手工进行初始化。</span></div><div style="margin-bottom: 0cm;"><br /></div><div style="margin-bottom: 0cm;"><span style="font-size: small;">内部类被外部类引用的例子</span></div><div style="margin-bottom: 0cm;"><span style="font-family: Liberation Serif,serif;">class Outer</span></div><div style="margin-bottom: 0cm;"><span style="font-family: Liberation Serif,serif;">{</span></div><div style="margin-bottom: 0cm;"><span style="font-family: Liberation Serif,serif;">     private int size=10;</span></div><div style="margin-bottom: 0cm;"><span style="font-family: Liberation Serif,serif;">     public class Inner</span></div><div style="margin-bottom: 0cm;"><span style="font-family: Liberation Serif,serif;">     {</span></div><div style="margin-bottom: 0cm;"><span style="font-family: Liberation Serif,serif;">      public void doStuff()</span></div><div style="margin-bottom: 0cm;"><span style="font-family: Liberation Serif,serif;">      {</span></div><div style="margin-bottom: 0cm;"><span style="font-family: Liberation Serif,serif;">          System.out.println(++size);</span></div><div style="margin-bottom: 0cm;"><span style="font-family: Liberation Serif,serif;">      }</span></div><div style="margin-bottom: 0cm;"><span style="font-family: Liberation Serif,serif;">     }</span></div><div style="margin-bottom: 0cm;"><span style="font-family: Liberation Serif,serif;">}</span></div><div style="margin-bottom: 0cm;"><span style="font-family: Liberation Serif,serif;">public class TestInner</span></div><div style="margin-bottom: 0cm;"><span style="font-family: Liberation Serif,serif;">{</span></div><div style="margin-bottom: 0cm;"><span style="font-family: Liberation Serif,serif;">     public static void main( String[] args)</span></div><div style="margin-bottom: 0cm;"><span style="font-family: Liberation Serif,serif;">     {</span></div><div style="margin-bottom: 0cm;"><span style="font-family: Liberation Serif,serif;">      <span style="color: blue;">Outer outer = new Outer();</span></span></div><div style="margin-bottom: 0cm;"><span style="color: blue;"><span style="font-family: Liberation Serif,serif;">      Outer.Inner inner = outer.new Inner();</span></span></div><div style="margin-bottom: 0cm;"><span style="font-family: Liberation Serif,serif;">      inner.doStuff();</span></div><div style="margin-bottom: 0cm;"><span style="font-family: Liberation Serif,serif;">     }</span></div><div style="margin-bottom: 0cm; text-indent: 0.74cm;"><span style="font-family: Liberation Serif,serif;">}</span></div><div style="margin-bottom: 0cm; text-indent: 0.74cm;"><br /></div><div style="margin-bottom: 0cm;">注意：在一个类中需要实例化另一个类的内部类，先实例化外部类，再实例化内部类！</div><div style="margin-bottom: 0cm;"><br /></div><div style="margin-bottom: 0cm;"><span style="color: red;"><span style="font-family: 黑体,SimHei;"><span style="font-size: medium;">关于</span></span><span style="font-family: 黑体,SimHei;"><span style="font-size: medium;">Java</span></span><span style="font-family: 黑体,SimHei;"><span style="font-size: medium;">的文档注释</span></span></span></div><div style="margin-bottom: 0cm;"><span style="font-family: 宋体,SimSun;"><span style="font-size: small;">1 </span></span><span style="font-size: small;">类和方法的说明应该在类和方法的定义之前</span></div><div style="margin-bottom: 0cm;"><span style="font-family: 宋体,SimSun;"><span style="font-size: small;">2 </span></span><span style="font-size: small;">批注参数来标记一些特殊的属性及其相应的说明 。</span></div><div style="margin-bottom: 0cm; text-indent: 0.74cm;"><span style="font-family: 宋体,SimSun;"><span style="font-size: small;">@author<</span></span><span style="font-size: small;">作者姓名</span><span style="font-family: 宋体,SimSun;"><span style="font-size: small;">></span></span></div><div style="margin-bottom: 0cm; text-indent: 0.74cm;"><span style="font-family: 宋体,SimSun;"><span style="font-size: small;">@version<</span></span><span style="font-size: small;">版本信息</span><span style="font-family: 宋体,SimSun;"><span style="font-size: small;">></span></span></div><div style="margin-bottom: 0cm; text-indent: 0.74cm;"><span style="font-family: 宋体,SimSun;"><span style="font-size: small;">@param<</span></span><span style="font-size: small;">参数名称</span><span style="font-family: 宋体,SimSun;"><span style="font-size: small;">><</span></span><span style="font-size: small;">参数说明</span><span style="font-family: 宋体,SimSun;"><span style="font-size: small;">></span></span></div><div style="margin-bottom: 0cm; text-indent: 0.74cm;"><span style="font-family: 宋体,SimSun;"><span style="font-size: small;">@return<</span></span><span style="font-size: small;">返回值说明</span><span style="font-family: 宋体,SimSun;"><span style="font-size: small;">></span></span><br /><span style="font-family: 宋体,SimSun;"><span style="font-size: small;"> </span></span><br /><span style="color: #333399;"><span style="font-family: 宋体;"><span style="font-size: small;"></span></span></span><b><a href="http://nourlcn.ownlinux.net/2011/10/learn-java-note-2.html">《Java学习笔记（下）》</a></b><span style="font-family: 宋体,SimSun;"><span style="font-size: small;"> </span></span></div>
+
+无意中翻出了我大三那年在科协写的《Java学习笔记》，现在看看都忘光了。
+
+贴出来供入门的童鞋拍砖！
+
+####关于对象
+
+*==* 表示引用的变量的值是否相等
+
+*equal()* 表示对象的内容是否相同
+
+		String str1 = new string("abc");
+		String str2 = new string("abc");
+		Str1==str2 返回的是false
+
+
+####关于构造方法
+
+*P1 = new person(string name,int age);*
+
+当new一个对象时，第一步是在堆中申请空间，第二步并不是执行构造方法中的赋值，而是先执行显示的变量赋值，将name age 的值置为显示赋值的值，第三步才是执行构造方法中的函数赋值
+
+
+####关于this
+
+*this*关键字在java程序里的作用和它的词义很接近，它在函数内部就是这个函数所属的对象的引用变量。 
+
+个人理解：
+
+this就是指代调用自己的那个对象，因为在编写方法的时候并不知道将来会是哪个对象调用自己，所以如果在自己这个方法中想调用其他的方法，无法确定“对象.方法”中的对象，设计this指针实现这一点。自己运行的时候一定是有一个对象存在的，调用自己的那个对象就是this
+
+
+同一个类中，一个成员方法可以直接调用同类的另一个成员方法，省略this，这也是可以的
+
+		{
+			…………
+			Void fun1(){}
+			Void fun2(){
+			Fun1();
+			}
+			…………
+		}
+
+有些情况非用this不可，例如：
+
++ 构造函数 
+
+		public person(string name){
+			this.name = name; //防止参数和成员变量重名；
+		}
+
++ 可以在一个构造方法里调用其他重载的构造方法，不是用构造方法名，而是用this(参数列表)的形式，根据其中的参数列表，选择相应的构造方法。 
++ 特殊调用情况
+
+
+####关于垃圾回收
+
++ c++中的析构方法 
++ 释放对象在生成中占用的资源
++ java中的finalize()方法 
++ 对象被彻底清除之前被调用，垃圾回收器是不能控制的。
++ Public void finalize() 是被自动调用的，但不一定什么时候调用。
++ System.gc（）的作用 垃圾回收器
++ 指派垃圾回收器收回垃圾
+
+每个类中都有一个equals方法和finalize方法
+
+不管构造方法还是析构方法 在调用这个方法时，对象还是存在的。否则怎么调用对象的方法呢？！
+
+
+####关于函数参数传递
+
+直接传递成员给change函数，change函数改变成员的值，不会对对象中的成员有任何影响
+如果直接传递对象给change，改变对象中的值时有影响，因为传递对象的名字，等于传递了堆中变量的地址，被两个句柄引用。
+
+
+####关于static 静态方法
+
+编写一个类的本质是什么？是描述这个类的对象一般具有的的属性和方法！
+
+Static方法：无论是否产生了对象或无论产生了多少对象的情况下，某些特定的数据在内存空间里只有一份，可以使用static方法，这个方法所有的对象共享内存的一份拷贝，在内存中却只有一份。
+
+#####注意：
+
++ 静态方法只能调用该类中的静态变量（包括成员和方法），不能调用非静态的变量。这是因为静态方法的使用不需要声明一个对象，而非静态的变量在使用之前必须指定一个对象
++ 静态方法中不能使用this和super，道理同上
++ Main方法是静态的，因为JVM在调用main的时候不需要他的所属对象到底是谁，同理，main中调用类中的非静态方法时，必须先有一个对象，使用该对象才可以调用类中的非静态变量。 
++ 一个类中可以使用不包含在任何方法体中的静态代码块(static block )，当类被载入时，静态代码块被执行，且只被执行一次，静态块经常用来进行类属性的初始化。
++ 类中的静态代码块被自动执行，尽管我们产生了类的多个实例对象，但其中的静态代码块只被执行了一次。当一个程序中用到了其他的类，类是在第一次被使用的时候才被装载，而不是在程序启动时就装载程序中所有可能要用到的类。-------》通过这一点可以推测到，在java程序的import语句中导入的任何包和类，只有被使用了才会被编译到代码模块中，而不是import的包和类都被编译！
+
+
+####关于内部类
+
+内部类可以使用外部类的变量，包括private类型的变量；但是，外部类不能使用内部类的变量
+
+内部类的好处：
+
+1. 代码紧凑，模块化强！
+1. 例如 类A调用类B的对象，调用的过程中类B又需要得到类A的成员变量，如果写成两个类，两个类之间的参数传递很麻烦！！用内部类很简单！！
+
+
+####注意：
+
+1. 如果内部类定义为static类型的，那么它相当于一个外部类，static的内部类中可声明static成员，但是，非static的内部类中的成员是不能声明为static的。
+2. 在内部类对象保存了一个对外部类对象的引用，当内部类的成员方法中访问某一变量时，如果在该方法和内部类中都没有定义过这个变量，内部类中对this的引用会被传递给那个外部类对象的引用
+3. 如果函数的局部变量（函数的形参也是局部变量），内部类的成员变量，外部类的成员变量重名，我们应该按下面的程序代码所使用的方式来明确指定我们真正要访问的变量。 
+
+		public class Outer
+		{
+			private int size;
+			public class Inner
+			{
+				private int size;
+				public void doStuff( int size)
+				{
+					size++; // 引用的是doStuff函数的形参
+					this.size++; //引用的是Inner类中的成员变量	
+					Outer.this.size++; // 引用的Outer类中的成员变量
+				}
+			}
+		}
+
+4.在方法中定义的内部类只能访问方法中的final类型的局部变量，不能访问方法中的普通局部变量，用final定义的局部变量相当于是一个常量，它的生命周期超出方法运行的生命周期。在类中定义的局部变量，编译器可以自动初始化，但在方法中定义的局部变量，编译器是不可以进行初始化的，必须由程序员手工进行初始化。
+
+
+内部类被外部类引用的例子
+
+		class Outer
+		{
+			private int size=10;
+			public class Inner
+			{
+				public void doStuff()
+				{
+					System.out.println(++size);
+				}
+			}
+		}
+		public class TestInner
+		{
+			public static void main( String[] args)
+			{
+				Outer outer = new Outer();
+				Outer.Inner inner = outer.new Inner();
+				inner.doStuff();
+			}
+		}
+
+
+##### 注意：在一个类中需要实例化另一个类的内部类，先实例化外部类，再实例化内部类！
+
+
+####关于Java的文档注释
+
+1. 类和方法的说明应该在类和方法的定义之前
+2. 批注参数来标记一些特殊的属性及其相应的说明 。
+
++ @author<作者姓名>
++ @version<版本信息>
++ @param<参数名称><参数说明>
++ @return<返回值说明>
