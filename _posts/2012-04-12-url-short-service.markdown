@@ -20,4 +20,4 @@ tags:
 还是留作自用吧。
 
 
-举个例子，本文短链接：[url.ownlinux.net/Nyaux](url.ownlinux.net/Nyaux)
+举个例子，本文短链接：[http://url.ownlinux.net/Nyaux](http://url.ownlinux.net/Nyaux)

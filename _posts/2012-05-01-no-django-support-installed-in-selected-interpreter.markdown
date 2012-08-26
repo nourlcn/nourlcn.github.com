@@ -21,5 +21,3 @@ Because Pycharm do not load the new django related variable. When create django 
 Launch your pycharm, file -> settings -> python interpreter -> reload
 
 
-URL: [url.ownlinux.net/N2MyC](url.ownlinux.net/N2MyC)
-
