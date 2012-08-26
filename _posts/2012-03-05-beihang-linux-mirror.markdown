@@ -9,4 +9,43 @@ tags:
 - BUAA
 - Linux
 ---
-<div style="text-align: justify;"><span style="font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;"><span style="font-size: 15px; line-height: 33px;">今早看邮件，发现有喜讯：</span></span></div><span style="background-color: white; font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif; font-size: 14px; line-height: 33px; text-align: justify;"><a href="http://mirror.buaabt.cn/index.html" target="_blank">北京航空航天大学开源镜像站</a>（BUAA Open Source Mirror Site),简称<a href="http://mirror.buaabt.cn/index.html" target="_blank">北航镜像站</a>，是由北航在校学生自发搭建、维护，旨在为广大Linux用户提供方便、快捷的更新服务。 由于资源有限，目前北航镜像站只提供以下Linux发行版的更新服务：</span><br /><div style="clear: both; text-align: center;"><a href="http://pic.yupoo.com/nourl/BN9tuMAp/uA0xc.png" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://pic.yupoo.com/nourl/BN9tuMAp/uA0xc.png" /></a></div><span style="background-color: white; font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif; font-size: 14px; line-height: 33px; text-align: justify;">欢迎开源爱好者、单位加入我们的团队，提供技术、硬件支持，力求打造北航精品镜像服务。</span><br /><div style="text-align: justify;"><span style="font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;"><span style="font-size: 15px; line-height: 33px;">若使用北航镜像，以Ubuntu10.04为例：</span></span></div><div style="text-align: justify;"><span style="font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;"><span style="font-size: 15px; line-height: 33px;">编辑/etc/apt/source.list，内容如下：</span></span></div><div style="text-align: justify;"><span style="background-color: #ffff99; font-family: 'Courier New', Courier, monospace; text-align: -webkit-auto;"># Ubuntu 10.04 北航源 mirror.buaabt.cn</span><br /><span style="background-color: #ffff99; font-family: 'Courier New', Courier, monospace; text-align: -webkit-auto;">deb http://mirror.buaabt.cn/ubuntu/ lucid main restricted universe multiverse</span><br /><span style="background-color: #ffff99; font-family: 'Courier New', Courier, monospace; text-align: -webkit-auto;">deb http://mirror.buaabt.cn/ubuntu/ lucid-backports main restricted universe multiverse</span><br /><span style="background-color: #ffff99; font-family: 'Courier New', Courier, monospace; text-align: -webkit-auto;">deb http://mirror.buaabt.cn/ubuntu/ lucid-proposed main restricted universe multiverse</span><br /><span style="background-color: #ffff99; font-family: 'Courier New', Courier, monospace; text-align: -webkit-auto;">deb http://mirror.buaabt.cn/ubuntu/ lucid-security main restricted universe multiverse</span><br /><span style="background-color: #ffff99; font-family: 'Courier New', Courier, monospace; text-align: -webkit-auto;">deb http://mirror.buaabt.cn/ubuntu/ lucid-updates main restricted universe multiverse</span><br /><span style="background-color: #ffff99; font-family: 'Courier New', Courier, monospace; text-align: -webkit-auto;">deb-src http://mirror.buaabt.cn/ubuntu/ lucid main restricted universe multiverse</span><br /><span style="background-color: #ffff99; font-family: 'Courier New', Courier, monospace; text-align: -webkit-auto;">deb-src http://mirror.buaabt.cn/ubuntu/ lucid-backports main restricted universe multiverse</span><br /><span style="background-color: #ffff99; font-family: 'Courier New', Courier, monospace; text-align: -webkit-auto;">deb-src http://mirror.buaabt.cn/ubuntu/ lucid-proposed main restricted universe multiverse</span><br /><span style="background-color: #ffff99; font-family: 'Courier New', Courier, monospace; text-align: -webkit-auto;">deb-src http://mirror.buaabt.cn/ubuntu/ lucid-security main restricted universe multiverse</span><br /><span style="background-color: #ffff99; font-family: 'Courier New', Courier, monospace; text-align: -webkit-auto;">deb-src http://mirror.buaabt.cn/ubuntu/ lucid-updates main restricted universe multiverse</span></div><div style="text-align: justify;"><span style="background-color: #ffff99; font-family: 'Courier New', Courier, monospace; text-align: -webkit-auto;"><br /></span></div><div style="text-align: -webkit-auto;"><span style="font-family: 'Courier New', Courier, monospace;"><br /></span></div>ubuntu的北航源列表：<br /><a href="http://mirror.buaabt.cn/list-ubuntu.html">http://mirror.buaabt.cn/list-ubuntu.html</a><br /><br />建议北航校内同学使用，速度超快！<br /><br />本文地址：<a href="http://nourlcn.ownlinux.net/2012/03/linux.html">http://nourlcn.ownlinux.net/2012/03/linux.html</a>
+
+今早看邮件，发现有喜讯：
+
+北京航空航天大学开源镜像站（BUAA Open Source Mirror Site),简称北航镜像站，是由北航在校学生自发搭建、维护，旨在为广大Linux用户提供方便、快捷的更新服务。 由于资源有限，目前北航镜像站只提供以下Linux发行版的更新服务：
+
+￼
+欢迎开源爱好者、单位加入我们的团队，提供技术、硬件支持，力求打造北航精品镜像服务。
+
+若使用北航镜像，以Ubuntu10.04为例：
+
+编辑/etc/apt/source.list，内容如下：
+
+		# Ubuntu 10.04 北航源 mirror.buaabt.cn
+
+		deb http://mirror.buaabt.cn/ubuntu/ lucid main restricted universe multiverse
+		deb http://mirror.buaabt.cn/ubuntu/ lucid-backports main restricted universe multiverse
+		deb http://mirror.buaabt.cn/ubuntu/ lucid-proposed main restricted universe multiverse
+		deb http://mirror.buaabt.cn/ubuntu/ lucid-security main restricted universe multiverse
+		deb http://mirror.buaabt.cn/ubuntu/ lucid-updates main restricted universe multiverse
+		deb-src http://mirror.buaabt.cn/ubuntu/ lucid main restricted universe multiverse
+		deb-src http://mirror.buaabt.cn/ubuntu/ lucid-backports main restricted universe multiverse
+		deb-src http://mirror.buaabt.cn/ubuntu/ lucid-proposed main restricted universe multiverse
+		deb-src http://mirror.buaabt.cn/ubuntu/ lucid-security main restricted universe multiverse
+		deb-src http://mirror.buaabt.cn/ubuntu/ lucid-updates main restricted universe multiverse
+
+
+
+
+ubuntu的北航源列表：http://mirror.buaabt.cn/list-ubuntu.html
+
+建议北航校内同学使用，速度超快！
+
+### 2012-08-26更新
+
+今天才发现北航的镜像地址变成buaa"官方"的了，之前的地址不能用了。
+
+有IPv4 IPv6两个地址：
+
++ IPv6 [http://mirror.buaa6.edu.cn/](http://mirror.buaa6.edu.cn/)
++ IPv4 [http://mirror.buaa6.edu.cn/](http://mirror.buaa6.edu.cn/)
