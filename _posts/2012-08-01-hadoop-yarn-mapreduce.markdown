@@ -16,5 +16,3 @@ tags:
 我打算把我注释过的代码托管在github上，供对MapReduce感兴趣的朋友参考，共同交流学习。
 
 代码地址：[https://github.com/nourlcn/yarn-comment](https://github.com/nourlcn/yarn-comment)
-
-本文地址：[http://url.ownlinux.net/OExRF](http://url.ownlinux.net/OExRF)
