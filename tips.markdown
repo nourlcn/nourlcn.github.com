@@ -11,4 +11,10 @@ title: Programmer Tips
 
 #### Python
 
+#### LINUX
++ clean file system cache: `echo 3 > /proc/sys/vm/drop_caches`
 
+#### ZMQ|ZeroMQ
++ MultiProcessing|MultiThreading: 
+ZMQ的多线程程序并不一定比单线程的快，因为存在大量的context上下文切换。
+在多核的机器上，将每个process绑定到一个core上，避免context切换，这样可以提升ZMQ的性能。
