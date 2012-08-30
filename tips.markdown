@@ -10,6 +10,13 @@ title: Programmer Tips
 + 如果一个未声明的标识符后跟一个（，那么它将被视为一个返回整型的函数；
 
 #### Python
++ 函数式编程:
+ + lambda args:expression
+ + apply(function[,args]) 逐步淘汰，不推荐使用
+ + filter(function,seq)
+ + map(function,seq)
+ + reduce(function,seq)
+ + 偏函数
 
 #### LINUX
 + clean file system cache: `echo 3 > /proc/sys/vm/drop_caches`
