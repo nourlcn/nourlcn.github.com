@@ -18,5 +18,3 @@ tags:
 synchronized关键字是不能继承的，也就是说，基类的方法synchronized f(){} 在继承类中并不自动是synchronized f(){}，而是变成了f(){}。继承类需要你显式的指定它的某个方法为synchronized方法； 
 
 
-本文地址：[http://nourlcn.ownlinux.net/2011/12/synchronized-in-java.html](http://nourlcn.ownlinux.net/2011/12/synchronized-in-java.html)
-

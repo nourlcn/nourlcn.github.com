@@ -33,4 +33,3 @@ pacman -Syu更新系统
 pacman -S xorg-server xfce4更新/安装xfce4
 启动xfce: startxfce4
 
-本文地址: [http://nourlcn.ownlinux.net/2012/03/libgtk-symbol-lookup-error-in-archlinux.html](http://nourlcn.ownlinux.net/2012/03/libgtk-symbol-lookup-error-in-archlinux.html)

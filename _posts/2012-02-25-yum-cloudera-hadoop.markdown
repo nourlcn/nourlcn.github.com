@@ -36,5 +36,4 @@ Redhat/Centos系列可以下载rpm包安装，也可以配置repo，使用Yum方
 
 具体细节可参考Cloudera的安装说明
 
-本文地址：[http://nourlcn.ownlinux.net/2012/02/yumcloudera-hadoop.html](http://nourlcn.ownlinux.net/2012/02/yumcloudera-hadoop.html)
 

@@ -23,7 +23,7 @@ Linux下网通上网问题解决方法（适合drcomclient.exe 城市热点的�
 Desktop）
 + 运行
 
-			wine /home/leejingui/Desktop/drcomclient.exe
+			wine /home/nourlcn/Desktop/drcomclient.exe
 
 + 运行第一步请选择 英文，避免安装过程中出现乱码，安装步骤和windows下一样，默认安装到 ./.wine/drive_c/
 Program Files/宽带登录客户端插件/
