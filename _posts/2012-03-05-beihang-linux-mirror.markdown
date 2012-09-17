@@ -23,29 +23,24 @@ tags:
 
 		# Ubuntu 10.04 北航源 mirror.buaabt.cn
 
-		deb http://mirror.buaabt.cn/ubuntu/ lucid main restricted universe multiverse
-		deb http://mirror.buaabt.cn/ubuntu/ lucid-backports main restricted universe multiverse
-		deb http://mirror.buaabt.cn/ubuntu/ lucid-proposed main restricted universe multiverse
-		deb http://mirror.buaabt.cn/ubuntu/ lucid-security main restricted universe multiverse
-		deb http://mirror.buaabt.cn/ubuntu/ lucid-updates main restricted universe multiverse
-		deb-src http://mirror.buaabt.cn/ubuntu/ lucid main restricted universe multiverse
-		deb-src http://mirror.buaabt.cn/ubuntu/ lucid-backports main restricted universe multiverse
-		deb-src http://mirror.buaabt.cn/ubuntu/ lucid-proposed main restricted universe multiverse
-		deb-src http://mirror.buaabt.cn/ubuntu/ lucid-security main restricted universe multiverse
-		deb-src http://mirror.buaabt.cn/ubuntu/ lucid-updates main restricted universe multiverse
+		deb http://mirror.buaa.edu.cn/ubuntu/ lucid main multiverse restricted universe
+		deb http://mirror.buaa.edu.cn/ubuntu/ lucid-backports main multiverse restricted universe
+		deb http://mirror.buaa.edu.cn/ubuntu/ lucid-proposed main multiverse restricted universe
+		deb http://mirror.buaa.edu.cn/ubuntu/ lucid-security main multiverse restricted universe
+		deb http://mirror.buaa.edu.cn/ubuntu/ lucid-updates main multiverse restricted universe
+		deb-src http://mirror.buaa.edu.cn/ubuntu/ lucid main multiverse restricted universe
+		deb-src http://mirror.buaa.edu.cn/ubuntu/ lucid-backports main multiverse restricted universe
+		deb-src http://mirror.buaa.edu.cn/ubuntu/ lucid-proposed main multiverse restricted universe
+		deb-src http://mirror.buaa.edu.cn/ubuntu/ lucid-security main multiverse restricted universe
+		deb-src http://mirror.buaa.edu.cn/ubuntu/ lucid-updates main multiverse restricted universe
 
-
-
-
-ubuntu的北航源列表：http://mirror.buaabt.cn/list-ubuntu.html
-
-建议北航校内同学使用，速度超快！
+ubuntu的北航源列表：[http://mirror.buaa.edu.cn](http://mirror.buaa.edu.cn) 建议北航校内同学使用，速度超快！
 
 ### 2012-08-26更新
 
-今天才发现北航的镜像地址变成buaa"官方"的了，之前的地址不能用了。
+今天才发现北航的镜像地址变成buaa"官方"的了。
 
 有IPv4 IPv6两个地址：
 
 + IPv6 [http://mirror.buaa6.edu.cn/](http://mirror.buaa6.edu.cn/)
-+ IPv4 [http://mirror.buaa6.edu.cn/](http://mirror.buaa6.edu.cn/)
++ IPv4 [http://mirror.buaa.edu.cn/](http://mirror.buaa.edu.cn/)
