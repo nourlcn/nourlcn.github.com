@@ -1,0 +1,12 @@
+--- 
+title: NoteForToday
+type: post
+layout: post
+tags: 
+- !binary |
+  5pyq5YiG57G7
+
+---
+<p>用了好久，把博客里面的绝大部分图片转移到了Flickr里，这样博客在搬家的时候，就不用考虑图片绝对地址的问题了。</p>  <p>只是刚刚清理了一下每篇文章的old revision，导致对文章略微修改后，发布的日期变化了，以前的旧文章成了新文章。
+</p>
+
