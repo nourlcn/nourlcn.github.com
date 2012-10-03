@@ -1,0 +1,9 @@
+--- 
+title: C语言中为什么无符号运算没有溢出 
+type: post
+layout: post
+tags: 
+- C
+---
+
+<limits.h> INT_MAX
