@@ -1,5 +1,5 @@
 --- 
-title: 各种折腾
+title: 折腾-使用Github+Jekyll搭建博客
 type: post
 layout: post
 tags: 
