@@ -1,11 +1,10 @@
 --- 
-title:算法:关于链表的两道题
+title: 算法：关于链表的几道题
 type: post
 layout: post
 tags: 
 - Algorithms
 ---
-
 
  -  两个链表的公共子节点问题
 
