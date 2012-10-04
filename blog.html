@@ -12,7 +12,7 @@ full_posts: 5
   {% if forloop.index < page.full_posts %}
   <div class='post'>
     <span class='date'>{{post.date | date_to_string}}</span>
-    <h1><a href='{{post.url}}'>{{post.title}}</a></h1>
+    <h2><a href='{{post.url}}'>{{post.title}}</a></h2>
     <div class='body'>{{post.content}}</div>
     <a href='{{post.url}}#disqus_thread'>查看评论</a>
   </div>
