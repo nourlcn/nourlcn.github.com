@@ -1,63 +1,45 @@
 --- 
-title: Python2.7.3 Build-in Functions 介绍
+title: Python2.7.3常用Build-in Functions
 type: post
 layout: post
 tags: 
 - Python 
 ---
 
-Build-in大概是*内建*的含义（这是我很久之前看一本python的书中，Build-in是这么翻译的），这里把Python2.7.3的内建函数逐个介绍一下，内容主要参考[Python 2.7.3 documentation](http://docs.python.org/library/functions.html)，也可以当作Python documentation的中文版。
-
-废话少说，开始：
-
+Build-in大概是*内建*的含义（这是我很久之前看一本python的书中，Build-in是这么翻译的），这里列一下Python2.7.3中常用的内建函数，有些带示例，有些不带（还是我太懒了）。主要参考[Python 2.7.3 documentation](http://docs.python.org/library/functions.html)。
 ----
 
 + abs()
-
 + all()
-
 > 如果参数中所有元素均为True，返回True，否则返回False
 
 + any()
-
 > 参数中只要存在一个元素为True，返回True，否则返回False
 
 + apply()
-
 > 不推荐使用。
 
 + basestring()
-
 > basestring是str和unicode的superclass，比较obj与basestring相当于比较obj与(str,unicode)
 
 + bin()
-
 > arg是一个整数，返回它的二进制形式字符串
 
 + bool()
-
 > 将参数转换成布尔类型
 
 + buffer()
-
 + bytearray()
-
 + callable()
-
 > arg是obj，如果该obj可被调用，返回True。
 
 + chr()
-
 > 参数是int类型，返回该int对应ASCII表中对应的字符串
 
 + classmethod()
-
 >用法：
-
 >第一个参数必须是class对象，可以通过类名或者类的实例来调用该方法。如果是子类（派生类）调用父类的classmethod，第一个参数是子类（派生类）对象。
-
 >等价于: 
-
 >也可以使用修饰符*@classmethod* 来定义一个classmethod
 
 		class C:
@@ -66,58 +48,44 @@ Build-in大概是*内建*的含义（这是我很久之前看一本python的书�
 				pass
 
 + cmp()
-
 >用法：cmp(x,y),比较x和y两个对象，根据xy的大小关系返回正值(x>y)、负值(x<y)、或者零(x==y)
 
 + coerce()
 + compile()
 + complex()
-
 > 构造一个复数类型
 
 + delattr()
-
 > delattr(obj,name) 删除obj中name属性的值。 相当于del obj.name
 
 + dict()
-
 > 构造一个dict对象
 
 + dir()
-
 >没有参数时，返回当前定义的local scope的所有变量；
 有参数时，返回参数obj的所有属性。
 
 + divmod()
-
 > 
 
 + enumerate()
-
 > enumerate(sequence, start=0),传入一个sequence,输出一个enumerate对象。该对象每个元素是tuple，每个tuple包括两部分，tuple[0]是tuple[1]在sequence中的index，可以通过start定义index是否从0开始。
 		\>\> seasons = ['Spring', 'Summer', 'Fall', 'Winter']
 		\>\> list(enumerate(seasons))
 		[(0, 'Spring'), (1, 'Summer'), (2, 'Fall'), (3, 'Winter')]		
 
 + eval()
-
-
-
 + execfile()
 + file()
-
 > 构造一个file的对象，很常用。例如f=file(filename,mode)
 
 + filter()
-
 > 函数式编程风格，传入一个function和一个序列，该序列中每个元素作为function的参数，若结果为True，输出该值。
 
 + float()
-
 > 构造一个float类型对象。
 
 + format()
-
 > 格式化字符串。类似C中printf("%d\t%f",int_num, float_num)
 
 
