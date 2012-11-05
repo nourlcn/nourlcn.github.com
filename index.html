@@ -9,12 +9,6 @@ title: Ant's Log on the Internet
     <div class='body'>{{ site.posts.first.content }}</div>
     <a href='./blog.html'>More Posts</a>
   </div>
-  <div class='post'>
-    <h3>All Post tags: </h3>
-    {% for tag in site.tags %}
-        <b> <a href='./blog.html'>{{tag}}</a> </b>
-    {% endfor %}
-  </div>
 </div>
 <div class='home_box' id='home_right'>
     <gcse:search></gcse:search>
