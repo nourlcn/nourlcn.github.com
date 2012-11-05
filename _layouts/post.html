@@ -1,46 +1,42 @@
 ---
 layout: master
 ---
-<div class='post'>
 
+<div class='post'>
   <h1><a href='{{page.url}}'>{{page.title}}</a></h1>
   <p><b>发布日期：{{page.date | date_to_string}}</b></p>
   <p><b>本文地址</b>:<a href='http://blog.ownlinux.net{{page.url}}'> http://blog.ownlinux.net{{page.url}}</a></p>
 
-  <!--
-  <span class='date'>{{page.date | date_to_string}}</span>
-  -->
   <div class='body'>{{ content }}</div>
 
   <!-- Baidu Button BEGIN -->
   <div id="bdshare" class="bdshare_t bds_tools_32 get-codes-bdshare">
- 	 <a class="bds_tsina"></a>
-	 <a class="bds_tqq"></a>
-	 <a class="bds_renren"></a>
-	 <a class="bds_douban"></a>
-	 <a class="bds_t163"></a>
-	 <a class="bds_ff"></a>
-	 <a class="bds_twi"></a>
-	 <a class="bds_fbook"></a>
-	 <a class="bds_linkedin"></a>
-	 <a class="bds_diandian"></a>
-	 <span class="bds_more">更多</span>
-	 <a class="shareCount"></a>
+     <a class="bds_tsina"></a>
+     <a class="bds_tqq"></a>
+     <a class="bds_renren"></a>
+     <a class="bds_douban"></a>
+     <a class="bds_t163"></a>
+     <a class="bds_ff"></a>
+     <a class="bds_twi"></a>
+     <a class="bds_fbook"></a>
+     <a class="bds_linkedin"></a>
+     <a class="bds_diandian"></a>
+     <span class="bds_more">更多</span>
+     <a class="shareCount"></a>
   </div>
   <script type="text/javascript" id="bdshare_js" data="type=tools&amp;uid=1211571" ></script>
   <script type="text/javascript" id="bdshell_js"></script>
   <script type="text/javascript">
-	  document.getElementById("bdshell_js").src = "http://share.baidu.com/static/js/shell_v2.js?cdnversion=" + new Date().getHours();
+      document.getElementById("bdshell_js").src = "http://share.baidu.com/static/js/shell_v2.js?cdnversion=" + new Date().getHours();
   </script>
   <!-- Baidu Button END -->
-
 </div>
 <br />
 <div class="related">
-  <br /> 
+  <br />
   <h4>最近发布</h4>
   <table class="post-list">
-    {% for post in site.related_posts limit:3 %}
+    {% for post in site.related_posts limit:5 %}
       <tr>
         <th><a href='{{ post.url }}'>{{ post.title }}</a></th>
         <td>{{ post.date | date_to_string }}</td>
@@ -49,19 +45,18 @@ layout: master
     {% endfor %}
   </table>
 </div>
-
 <!-- Duoshuo Comment BEGIN -->
-	<div class="ds-thread" data-thread-key="" 
-	data-title="" data-author-key="" data-url=""></div>
-	<script type="text/javascript">
-	var duoshuoQuery = {short_name:"antalk"};
-	(function() {
-		var ds = document.createElement('script');
-		ds.type = 'text/javascript';ds.async = true;
-		ds.src = 'http://static.duoshuo.com/embed.js';
-		ds.charset = 'UTF-8';
-		(document.getElementsByTagName('head')[0] 
-		|| document.getElementsByTagName('body')[0]).appendChild(ds);
-	})();
-	</script>
+    <div class="ds-thread" data-thread-key=""
+    data-title="" data-author-key="" data-url=""></div>
+    <script type="text/javascript">
+    var duoshuoQuery = {short_name:"antalk"};
+    (function() {
+        var ds = document.createElement('script');
+        ds.type = 'text/javascript';ds.async = true;
+        ds.src = 'http://static.duoshuo.com/embed.js';
+        ds.charset = 'UTF-8';
+        (document.getElementsByTagName('head')[0]
+        || document.getElementsByTagName('body')[0]).appendChild(ds);
+    })();
+    </script>
 <!-- Duoshuo Comment END -->
