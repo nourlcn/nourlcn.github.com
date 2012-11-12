@@ -1,6 +1,8 @@
 [@nourlcn](https://twitter.com/nourlcn)
 =============
 
-This is the Jekyll source for my blog hosted by Github: [Ant's Log on the Internet](http://blog.ownlinux.net/). 
+This is my Jekyll blog source code.
+
+[Ant's Log on the Internet](http://blog.ownlinux.net/). Powered by [Github](http://github.com)
 
 [More Info about me](http://about.me/nourlcn)
