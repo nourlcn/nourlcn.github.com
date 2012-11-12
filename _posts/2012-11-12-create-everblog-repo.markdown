@@ -7,8 +7,9 @@ tags:
 - Blog
 ---
 
+-----
 
-在github上新建了个Repo [Everblog](https://github.com/nourlcn/everblog)，基本设想是想使用Evernote作为blog的db
+在github上新建了个Repo [Everblog](https://github.com/nourlcn/everblog)，基本设想是想使用Evernote作为blog的db.
 
 As you know，Evernote是目前最优秀的笔记应用，它包括标签(tag)、笔记本(notebook)、笔记(note)等元素，提供分享、协同编辑、查找等功能，免费帐户每月60M的上传基本上可以满足普通用户的需求。
 
@@ -18,24 +19,24 @@ As you know，Evernote是目前最优秀的笔记应用，它包括标签(tag)�
 
 我想做这样一件事情：
 
-+ 使用Evernote的客户端、网页版等进行内容编辑
-+ 使用Evernote的存储功能作为db
-+ 将特定的内容(可配置)集中展示在一个domain下
-+ 写作、更新在Evernote中进行
-+ 前端作为一个Blog式样，仅进行展示
++ 使用Evernote的客户端、网页版等进行内容编辑;
++ 使用Evernote的存储功能作为db;
++ 将特定的内容(可配置)集中展示在一个domain下;
++ 写作、更新在Evernote中进行;
++ 前端作为一个Blog式样，仅进行展示;
 + 集note和blog与一体...
 
 
 #### BTW
 
-+ Evernote可以分享笔记、笔记本，但是是“零碎”的，一方面不能集中展示，另一方面我想加入可配的条件，仅展示“特定内容”(Todo)
++ Evernote可以分享笔记、笔记本，但是是“零碎”的，一方面不能集中展示，另一方面我想加入可配的条件，仅展示“特定内容”(Todo);
 
-+ Evernote现在的问题是连接响应太慢，作为db会影响体验(一个简单的想法是把tag和note相关的id放入内存中，可加速部分页面)
++ Evernote现在的问题是连接响应太慢，作为db会影响体验(一个简单的想法是把tag和note相关的id放入内存中，可加速部分页面);
 
 + 目前仅完成基本查询功能，Todo很多，最近一两天做一个可展示的demo出来..
 
 #### Tech
 
-+ 使用了Evernote[官方的python库](https://github.com/evernote/evernote-sdk-python)与Evernote交互
++ 使用了Evernote[官方的python库](https://github.com/evernote/evernote-sdk-python)与Evernote交互;
 
-+ 使用了Python的flask+jinja2
++ 使用了Python的flask+jinja2;
