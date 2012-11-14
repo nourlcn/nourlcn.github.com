@@ -4,8 +4,8 @@ layout: master
 
 <div class='post'>
   <h1><a href='{{page.url}}'>{{page.title}}</a></h1>
-  <p><b>发布日期：{{page.date | date_to_string}}</b></p>
-  <p><b>本文地址</b>:<a href='http://blog.ownlinux.net{{page.url}}'> http://blog.ownlinux.net{{page.url}}</a></p>
+  <p class="line-small"><b>发布日期：{{page.date | date_to_string}}</b></p>
+  <p class="line-small"><b>本文地址</b>:<a href='http://blog.ownlinux.net{{page.url}}'> http://blog.ownlinux.net{{page.url}}</a></p>
 
   <div class='body'>{{ content }}</div>
 
