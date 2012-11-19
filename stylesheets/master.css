@@ -79,7 +79,6 @@ a:visited {
 #content p {
   line-height: 130%;
 }
-p.line-small {line-height:100%}
 
 span.date {
   background: #6e9b20 url(/images/green_gradient.gif) repeat-x top;
