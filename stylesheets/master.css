@@ -2,7 +2,6 @@ body {
   font-family: Rockwell, Verdana, sans-serif;
   letter-spacing: 0em;
   background: #fff url(/images/header_bg.gif) repeat-x top;
-  color: #353B40;
   margin: 0;
   padding: 0;
   font-size: 1.1em;
@@ -33,16 +32,6 @@ a:visited {
   float: left;
 }
 
-/*
-#header h1 a {
-  margin-top: 10px;
-  display: block;
-  background: url(/images/title.gif) no-repeat top left;
-  width: 405px;
-  height: 80px;
-  text-indent: -999em;
-}
-*/
 #menu {
   float: right;
 }
@@ -88,7 +77,7 @@ a:visited {
 }
 
 #content p {
-  line-height: 110%;
+  line-height: 130%;
 }
 
 span.date {
