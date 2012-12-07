@@ -7,6 +7,12 @@ body {
   font-size: 1.1em;
 }
 
+a {
+  color: #583;
+  font-weight: bold;
+  text-decoration: none;
+}
+
 a:visited {
   color: #260;
 }
