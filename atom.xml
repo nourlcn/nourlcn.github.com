@@ -17,7 +17,7 @@ layout: nil
     {% if post.url contains '2012' %}
     <item>
       <title>{{ post.title }}</title>
-      <link>http://example.com{{ post.url }}</link>
+      <link>http://blog.ownlinux.net{{ post.url }}</link>
       <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
       <author>nourlcn@gmail.com</author>
       <guid>http://blog.ownlinux.net{{ post.id }}</guid>
