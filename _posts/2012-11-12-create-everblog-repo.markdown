@@ -7,8 +7,7 @@ tags:
 - Blog
 ---
 
-
-在github上新建了个Repo [Everblog](https://github.com/nourlcn/everblog)，基本设想是想使用Evernote作为blog的db
+在github上新建了个Repo [Everblog](https://github.com/nourlcn/everblog)，基本设想是想使用Evernote作为blog的db.
 
 As you know，Evernote是目前最优秀的笔记应用，它包括标签(tag)、笔记本(notebook)、笔记(note)等元素，提供分享、协同编辑、查找等功能，免费帐户每月60M的上传基本上可以满足普通用户的需求。
 

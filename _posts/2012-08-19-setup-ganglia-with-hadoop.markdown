@@ -29,6 +29,8 @@ Ganglia的服务端安装在namenode上，在namenode上执行
 
 		$ sudo apt-get install  ganglia-monitor ganglia-webfront gmetad
 
+//补充：在Ubuntu10.04上，ganglia-webfront这个package名字叫ganglia-webfrontend
+
 修改*/etc/ganglia/gmond.conf*配置文件:
 
 + 先找到setuid = yes,改成setuid =no;
@@ -102,5 +104,24 @@ OK,现在可以通过*http://namenode_ip/ganglia*访问ganglia的页面了。
 (239.2.11.71这个是ganglia用的多播的地址，不需要改成gmetad的服务器地址)
 
 OK,现在可以通过*http://namenode_ip/ganglia*监控hadoop了.
+
+
+-----
+###2012-12-11 补充
+今天发现之前配的Ganglia被搞坏了，需要重新配置一下。如上文所示，配置之后启动Ganglia和Apache，提示报错
+
+	Warning: fsockopen() [function.fsockopen]: unable to connect to 127.0.0.1:8652 in ****/ganglia.php on line 273
+
+查看/var/log/apache2/error.log，发现log内容如下：
+
+	There was an error collecting ganglia data (127.0.0.1:8652): fsockopen error: Connection refused
+
+#####原因
+查看gmetad已死，subsys被锁。
+
+#####解决方案
+重启一下gmetad
+
+	service gmetad restart
 
 
