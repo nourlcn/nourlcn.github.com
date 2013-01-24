@@ -4,7 +4,7 @@ body {
   background: #fff url(/images/header_bg.gif) repeat-x top;
   margin: 0;
   padding: 0;
-  font-size: 1.1em;
+  font-size: 1.2em;
 }
 
 a {
@@ -77,7 +77,7 @@ a:visited {
 }
 
 #content p {
-  line-height: 130%;
+  line-height: 150%;
 }
 
 span.date {
