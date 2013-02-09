@@ -150,7 +150,8 @@ table.post-list {
 }
 
 table.post-list a {
-  color: #262;
+  //color: #262;
+  color: #060;
   font-weight: bold;
 }
 
