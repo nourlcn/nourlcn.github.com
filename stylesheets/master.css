@@ -1,7 +1,8 @@
 body {
   font-family: Rockwell, Verdana, sans-serif;
   letter-spacing: 0em;
-  background: #fff url(/images/header_bg.gif) repeat-x top;
+  //background: #fff url(/images/header_bg.gif) repeat-x top;
+  background: #000;
   margin: 0;
   padding: 0;
   font-size: 1.2em;
@@ -114,8 +115,7 @@ div.post {
   padding: 0.08em 0.5em;
   margin: 0 0 0.2em 0;
   font-weight: bold;
-  //background: #f8f8f8 url(/images/header_gradient.gif) repeat-x bottom;
-  background: #000;
+  background: #f8f8f8 url(/images/header_gradient.gif) repeat-x bottom;
   -moz-box-shadow: 1px 1px 5px rgba(0,0,0,0.6);
   -webkit-box-shadow: 1px 1px 5px rgba(0,0,0,0.6);
   box-shadow: 1px 5px 5px rgba(0,0,0,0.6);
