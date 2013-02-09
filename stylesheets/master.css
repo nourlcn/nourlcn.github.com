@@ -99,7 +99,7 @@ span.date {
 
 div.post {
   margin-bottom: 2em;
-  color: #333;
+  color: #0f0;
 }
 
 .post h1 {
@@ -114,7 +114,8 @@ div.post {
   padding: 0.08em 0.5em;
   margin: 0 0 0.2em 0;
   font-weight: bold;
-  background: #f8f8f8 url(/images/header_gradient.gif) repeat-x bottom;
+  //background: #f8f8f8 url(/images/header_gradient.gif) repeat-x bottom;
+  background: #000;
   -moz-box-shadow: 1px 1px 5px rgba(0,0,0,0.6);
   -webkit-box-shadow: 1px 1px 5px rgba(0,0,0,0.6);
   box-shadow: 1px 5px 5px rgba(0,0,0,0.6);
