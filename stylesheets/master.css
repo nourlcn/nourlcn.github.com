@@ -111,16 +111,10 @@ div.post {
   text-decoration: none;
   clear: left;
   display: block;
-  color: black;
-  padding: 0.08em 0.5em;
-  margin: 0 0 0.2em 0;
-  font-weight: bold;
   background: #f8f8f8 url(/images/header_gradient.gif) repeat-x bottom;
-  -moz-box-shadow: 1px 1px 5px rgba(0,0,0,0.6);
   -webkit-box-shadow: 1px 1px 5px rgba(0,0,0,0.6);
   box-shadow: 1px 5px 5px rgba(0,0,0,0.6);
   font-weight: normal;
-  color: #000;
   z-index: 10000;
 }
 
