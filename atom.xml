@@ -14,7 +14,7 @@ layout: nil
     <lastBuildDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S %z" }}</lastBuildDate>
 
     {% for post in site.posts %}i
-    {% if post.url contains '2012' %}
+    <!--{% if post.url contains '2012' %}-->
     <item>
       <title>{{ post.title }}</title>
       <link>http://blog.ownlinux.net{{ post.url }}</link>
@@ -23,7 +23,7 @@ layout: nil
       <guid>http://blog.ownlinux.net{{ post.id }}</guid>
       <description>{{ post.content | xml_escape }}</description>
     </item>
-    {% endif %}
+    <!--{% endif %}-->
     {% endfor %}
 
   </channel> 
