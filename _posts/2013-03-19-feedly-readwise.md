@@ -14,7 +14,7 @@ Google宣布即将关闭Reader服务，这对鲜果、抓虾、Feedly等阅读�
 
 最终给大家推荐两个可以替代Google Reader的服务，一个是国外的Feedly，一个是国内的美味爱读：
 
-#### Feedly
+### Feedly
 
 我之前一直使用[Feedly](http://www.feedly.com)作为GR的客户端，在Google宣布即将关闭Reader后，选择继续使用Feedly是情理之中的事情。
 
@@ -28,16 +28,17 @@ Google宣布即将关闭Reader服务，这对鲜果、抓虾、Feedly等阅读�
 + Feedly可以使用Google账号登录，授权后导入GR中的订阅内容；
 
 劣势：
+
 + 据说偶尔被GFW验证一下，国内访问不稳定
 （也不稀奇，优秀的服务总是被GFW验证嘛）
 
 更重要的一点是，Feedly宣称要为GR用户服务，已经做好了取代Google Reader的准备。
 
-#### 美味爱读
+### 美味爱读
 
-[美味爱读](www.readwise.net)是创新工厂孵化的一款应用，因为在创新工厂实习过的原因，在它发布初期我就成为了美味爱读的用户.
+[美味爱读](www.readwise.net)是创新工厂孵化的一款应用，因为在创新工厂实习过的原因，在它发布初期我就成为了美味爱读的用户。使用之后发现，美味爱读的网页版很清新简洁，只是目前同步RSS速度慢了一点。
 
-借Google Reader关闭之势，美味爱读现在提供_一键导入Google Reader_的功能,使用之后发现，美味爱读的网页版很清新简洁，只是目前同步RSS速度慢了一点。
+借Google Reader关闭之势，美味爱读现在提供_一键导入Google Reader_的功能,导入方法很简单，登录美味爱读后，点击左下角导入，按提示操作即可。
 
 <image width="550" src="https://lh5.googleusercontent.com/-qMjmEhVW3u4/UUgCDcuka9I/AAAAAAAAF6g/yF2Q0XIA4OY/s1185/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7+2013-03-19+%E4%B8%8B%E5%8D%882.12.51.jpg"></image>
 
