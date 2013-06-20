@@ -1,6 +1,7 @@
 ---
 title: 不到长城非好汉
 type: post
+group: life
 layout: post
 tags:
 - wechat

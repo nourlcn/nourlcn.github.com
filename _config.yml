@@ -1,7 +1,21 @@
-auto: false
-markdown: rdiscount
-pygments: true
-url: http://blog.ownlinux.net
-destination: ../_site
-permalink: /:year/:month/:title.html
+markdown:         rdiscount
+pygments:         true
+paginate:         4
 
+title:            "Ant's Log on the Internet"
+url:              http://blog.ownlinux.net
+feed:             /atom.xml
+author:
+    name:         Ant
+    email:        nourlcn@gmail.com
+description:      "Ant's life log -- record more "
+
+about: 			  "I am who I am. "
+follow:
+    github:       https://github.com/nourlcn
+    twitter:      https://twitter.com/nourlcn
+
+
+style: 			  /css/style.css
+blogName: 		  Ant.log
+blogDesc: 		  Mac, Linux, Python, Life, Wechat.

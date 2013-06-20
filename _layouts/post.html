@@ -1,50 +1,28 @@
 ---
-layout: master
+layout: default
 ---
-
-<div class='post'>
-  <h1><a href='{{page.url}}'>{{page.title}}</a></h1>
-  <p><b>发布日期：{{page.date | date_to_string}}</b></p>
-  <p><b>本文地址</b>:<a href='http://blog.ownlinux.net{{page.url}}'> http://blog.ownlinux.net{{page.url}}</a></p>
-
-  <div class='body'>{{ content }}</div>
-
-  <!-- Baidu Button BEGIN -->
-  <div id="bdshare" class="bdshare_t bds_tools_32 get-codes-bdshare">
-     <a class="bds_tsina"></a>
-     <a class="bds_tqq"></a>
-     <a class="bds_renren"></a>
-     <a class="bds_douban"></a>
-     <a class="bds_t163"></a>
-     <a class="bds_ff"></a>
-     <a class="bds_twi"></a>
-     <a class="bds_fbook"></a>
-     <a class="bds_linkedin"></a>
-     <a class="bds_diandian"></a>
-     <span class="bds_more">更多</span>
-     <a class="shareCount"></a>
-  </div>
-  <script type="text/javascript" id="bdshare_js" data="type=tools&amp;uid=1211571" ></script>
-  <script type="text/javascript" id="bdshell_js"></script>
-  <script type="text/javascript">
-      document.getElementById("bdshell_js").src = "http://share.baidu.com/static/js/shell_v2.js?cdnversion=" + new Date().getHours();
-  </script>
-  <!-- Baidu Button END -->
-</div>
-<br />
-
-<!-- Duoshuo Comment BEGIN -->
-<div class="ds-thread" data-thread-key=""
-    data-title="" data-author-key="" data-url=""></div>
-    <script type="text/javascript">
-    var duoshuoQuery = {short_name:"antalk"};
-    (function() {
-        var ds = document.createElement('script');
-        ds.type = 'text/javascript';ds.async = true;
-        ds.src = 'http://static.duoshuo.com/embed.js';
-        ds.charset = 'UTF-8';
-        (document.getElementsByTagName('head')[0]
-        || document.getElementsByTagName('body')[0]).appendChild(ds);
-    })();
-    </script>
-<!-- Duoshuo Comment END -->
+<section class="content">
+	<div class="content-cnt fn-clear">
+		<div class="main fn-clear">
+			<article class="entry">
+				<h1 class="title">{{ page.title }}</h1>
+               	<p class="meta"><time class="date" pubdate="{{ page.date | date_to_utc | date: '%Y-%m-%d' }}">{{ page.date | date_to_string }}</time> By <a href="/contact.html" class="author" title="author">{{ site.author.name }}</a><g:plusone size="small"></g:plusone></p>
+               	<p class="description">{{ page.description }}</p>
+ 			 	{{ content }}
+                <nav class="pagination-link">
+                    {% if page.previous %}
+                    <a class="prev" href="{{ page.previous.url }}" rel="bookmark">&laquo;&nbsp;{{ page.previous.title | truncatewords:5 }}</a>
+                    {% endif %}
+                    {% if page.next %}
+                    <a class="next" href="{{ page.next.url }}" rel="bookmark">{{ page.next.title | truncatewords:5 }}&nbsp;&raquo;</a>
+                    {% endif %}
+                 </nav>
+			</article><!-- .entry -->		
+		</div>
+		<div class="aside fn-clear">
+			{% include wg-contact.html %}
+			{% include wg-project.html %}
+			{% include wg-other.html %}
+		</div>
+	</div>
+</section>
