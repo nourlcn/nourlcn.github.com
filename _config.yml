@@ -1,6 +1,6 @@
 markdown:         rdiscount
 pygments:         true
-paginate:         4
+paginate:         6
 permalink: /:year/:month/:title.html
 
 title:            "Ant's Log on the Internet"
@@ -11,7 +11,7 @@ author:
     email:        nourlcn@gmail.com
 description:      "Ant's life log -- record more "
 
-about: 			  "I am who I am. "
+about: 			  "微信扫描订阅本博客. "
 follow:
     github:       https://github.com/nourlcn
     twitter:      https://twitter.com/nourlcn
