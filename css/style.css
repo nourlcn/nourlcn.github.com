@@ -205,7 +205,7 @@ body                        { background: url(/images/body-bg.jpg) repeat 0 0; }
 --------------------------------------------*/
 .page-title                 { font-size:  26px; font-family: Georgia; color: #454545; border-bottom: 1px dashed #a8a8a8; }
 .archives                   { padding: 10px 0; }
-.article-box                { float: left; margin: 20px 10px 0 10px; width: 205px; height: 280px; background: #36393e url(/images/bg.png) repeat 0 0; box-shadow: 1px 1px 4px #a8a8a8; border-radius: 5px 5px; }
+.article-box                { float: left; margin: 20px 10px 0 10px; width: 205px; height: 180px; background: #36393e url(/images/bg.png) repeat 0 0; box-shadow: 1px 1px 4px #a8a8a8; border-radius: 5px 5px; }
 .article-box:hover          { background: #2b2b2b; box-shadow: 1px 1px 4px #898989; }
 .article-box p              { padding: 10px 10px 0 10px; font-size: 12px; color: #e8e8e8; }
 .article-box p a            { border-bottom: 1px dotted #686868; color: #a9a9a9; }
