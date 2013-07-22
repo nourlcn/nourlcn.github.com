@@ -16,8 +16,6 @@ about: 			  "微信扫描订阅本博客. "
 follow:
     github:       https://github.com/nourlcn
     twitter:      https://twitter.com/nourlcn
-
-
-style: 			  /css/style.css
-blogName: 		  Ant.log
-blogDesc: 		  Mac, Linux, Python, Life, Wechat.
+style: 			  ./css/style.css
+blogName: 		  Ants Log
+blogDesc: 		  Mac, BigData, Hadoop, Wechat, Life.
