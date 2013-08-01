@@ -1,5 +1,5 @@
 --- 
-title: "Spanner: Google\xE2\x80\x99s next Massive Storage and Computation infrastructure"
+title: "Spanner: Google next Massive Storage and Computation infrastructure"
 type: post
 layout: post
 tags: 

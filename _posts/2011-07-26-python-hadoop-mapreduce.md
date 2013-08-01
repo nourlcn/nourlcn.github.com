@@ -1,5 +1,5 @@
 --- 
-title: "Python\xE5\xAE\x9E\xE7\x8E\xB0Hadoop MapReduce"
+title: "Python编写Hadoop MapReduce程序"
 type: post
 layout: post
 tags: 

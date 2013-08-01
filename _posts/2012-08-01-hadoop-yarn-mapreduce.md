@@ -1,5 +1,5 @@
 --- 
-title: "Hadoop 0.23 MapReduce \xE6\xB3\xA8\xE9\x87\x8A\xE7\x89\x88"
+title: "Hadoop 0.23 MapReduce 部分注释"
 type: post
 layout: post
 tags: 

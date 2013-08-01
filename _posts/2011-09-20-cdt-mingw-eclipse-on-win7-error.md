@@ -1,7 +1,5 @@
 --- 
-title: !binary |
-  V2luN+S4i0VjbGlwc2UrQ0RUK01pbkdX5o+Q56S66ZSZ6K+v
-
+title: Eclipse+CDT 权限问题
 type: post
 layout: post
 tags: 

@@ -1,5 +1,5 @@
 --- 
-title: "\xE2\x80\x98no namenode to stop\xE2\x80\x99 Error in Hadoop"
+title: 'no namenode to stop' Error in Hadoop
 type: post
 layout: post
 tags: 

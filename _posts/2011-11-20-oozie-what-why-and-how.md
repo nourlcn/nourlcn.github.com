@@ -1,5 +1,5 @@
 --- 
-title: "Oozie \xE2\x80\x94 What Why and How"
+title: "Oozie - What Why and How"
 type: post
 layout: post
 tags: 
