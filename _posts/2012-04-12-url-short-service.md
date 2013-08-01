@@ -1,6 +1,5 @@
 --- 
-title: !binary |
-  VVJMIFNob3J05pyN5Yqh
+title: URL Short Service
 
 type: post
 layout: post
