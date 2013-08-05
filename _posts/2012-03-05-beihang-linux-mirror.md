@@ -1,6 +1,5 @@
 --- 
-title: !binary |
-  5YyX6IiqTGludXjplZzlg4/nq5k=
+title: 北航Linux mirror
 
 type: post
 layout: post

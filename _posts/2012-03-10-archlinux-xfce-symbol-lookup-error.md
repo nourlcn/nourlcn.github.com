@@ -1,5 +1,5 @@
 --- 
-title: "Archlinux\xE5\xAE\x89\xE8\xA3\x85xfce\xE6\x8F\x90\xE7\xA4\xBAsymbol lookup error"
+title: "Archlinux安装xfce4提示Asymbol lookup error"
 type: post
 layout: post
 tags: 

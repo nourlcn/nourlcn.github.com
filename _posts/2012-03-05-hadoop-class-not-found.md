@@ -1,7 +1,5 @@
 --- 
-title: !binary |
-  SGFkb29w5ZCv5Yqo5pe2Q2xhc3NOb3RGb3VuZA==
-
+title: Hadoop 'class not found'
 type: post
 layout: post
 tags: 

@@ -1,6 +1,5 @@
 --- 
-title: !binary |
-  5a6J6KOFTUZTIENsaWVudA==
+title: 安装MFS Client
 
 type: post
 layout: post

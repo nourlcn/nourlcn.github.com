@@ -1,7 +1,5 @@
 --- 
-title: !binary |
-  57yW6K+RSGFkb29w5pe2TW9qb0V4ZWN1dGlvbkV4Y2VwdGlvbumUmeivrw==
-
+title: Hadoop 'mojo execution exception'
 type: post
 layout: post
 tags: 

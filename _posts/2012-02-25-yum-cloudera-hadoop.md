@@ -1,6 +1,5 @@
 --- 
-title: !binary |
-  WXVt5pa55byP5a6J6KOFQ2xvdWRlcmEgSGFkb29w
+title: Yum安装Cloudera Hadoop(CDH)
 
 type: post
 layout: post
