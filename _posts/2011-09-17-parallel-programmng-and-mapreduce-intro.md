@@ -1,7 +1,5 @@
 --- 
-title: !binary |
-  5bm26KGM57yW56iL5Y+KTWFwcmVkdWNl5LuL57uN
-
+title: 并行计算和MapReduce介绍
 type: post
 layout: post
 tags: 

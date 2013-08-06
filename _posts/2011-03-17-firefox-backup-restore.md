@@ -1,7 +1,5 @@
 --- 
-title: !binary |
-  5aSH5Lu9RmlyZWZveOaPkuS7tuWPiuiuvue9rg==
-
+title: 火狐浏览器的备份和恢复
 type: post
 layout: post
 tags: 

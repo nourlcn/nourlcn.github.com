@@ -1,7 +1,5 @@
 --- 
-title: !binary |
-  6K6+6K6h5Lit55qES0lTU+WOn+WImQ==
-
+title: 软件设计原则 - KISS
 type: post
 layout: post
 tags: 

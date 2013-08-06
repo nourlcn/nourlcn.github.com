@@ -1,7 +1,5 @@
 --- 
-title: !binary |
-  VWJ1bnR1IGZpcmV3YWxs566A5Y2V6K6+572u
-
+title: Ubuntu防火墙配置
 type: post
 layout: post
 tags: 

@@ -1,7 +1,5 @@
 --- 
-title: !binary |
-  5LuOd29yZHByZXNz5pCs5a625YiwYmxvZ2dlcueahOS4pOenjeaWueazlQ==
-
+title: 从Wordpress导入到Blogger的两种方式
 type: post
 layout: post
 tags: 

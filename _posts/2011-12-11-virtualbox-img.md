@@ -1,7 +1,5 @@
 --- 
-title: !binary |
-  5aSN5Yi2VmlydHVhbGJveOmVnOWDjw==
-
+title: Virtual Box虚拟机镜像复制问题
 type: post
 layout: post
 tags: 

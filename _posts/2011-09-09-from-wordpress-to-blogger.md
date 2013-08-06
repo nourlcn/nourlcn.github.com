@@ -1,7 +1,5 @@
 --- 
-title: !binary |
-  5LuOd29yZHByZXNz5pCs5a625YiwYmxvZ2dlcg==
-
+title: 博客从Wordpress导入到Blogger
 type: post
 layout: post
 tags: 

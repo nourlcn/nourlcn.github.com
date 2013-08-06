@@ -1,7 +1,5 @@
 --- 
-title: !binary |
-  TWFwUmVkdWNl5L2c5Lia5omn6KGM5YmN55qE5YeG5aSH5bel5L2c
-
+title: MapReduce中作业提交的过程
 type: post
 layout: post
 tags: 

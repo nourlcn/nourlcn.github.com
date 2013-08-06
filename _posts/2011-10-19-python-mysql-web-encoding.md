@@ -1,7 +1,5 @@
 --- 
-title: !binary |
-  UHl0aG9uIE15c3FsIFdlYue8lueggemXrumimA==
-
+title: Python访问MySQL编码问题
 type: post
 layout: post
 tags: 

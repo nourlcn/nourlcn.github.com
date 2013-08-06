@@ -1,7 +1,5 @@
 --- 
-title: !binary |
-  5LqR6YeM6Zu+6YeM55yL6K6h566X
-
+title: 云计算介绍
 type: post
 layout: post
 tags: 

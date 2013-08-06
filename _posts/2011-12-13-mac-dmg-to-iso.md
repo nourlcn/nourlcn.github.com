@@ -1,7 +1,5 @@
 --- 
-title: !binary |
-  6L2s5o2iTWFjIERNR+agvOW8j+mVnOWDj+S4uklTT+agvOW8jw==
-
+title: Mac系统DMG格式转换为ISO格式
 type: post
 layout: post
 tags: 

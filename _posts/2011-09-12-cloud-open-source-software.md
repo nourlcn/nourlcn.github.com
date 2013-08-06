@@ -1,7 +1,5 @@
 --- 
-title: !binary |
-  5LqR6K6h566X55u45YWz55qE5byA5rqQ6L2v5Lu2
-
+title: 云计算相关开源软件
 type: post
 layout: post
 tags: 

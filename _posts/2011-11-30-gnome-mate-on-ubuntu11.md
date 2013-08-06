@@ -1,7 +1,5 @@
 --- 
-title: !binary |
-  dWJ1bnR1MTEuKiDlronoo4VHbm9tZSBNYXRl5YiG5pSv5qGM6Z2i
-
+title: Ubuntu上安装Gnome Mate桌面
 type: post
 layout: post
 tags: 

@@ -1,7 +1,5 @@
 --- 
-title: !binary |
-  5paw54mISGFkb29w77yIMC4yM++8ieS4reeahOS4pOeCueS8mOWMlg==
-
+title: Hadoop0.23新特性介绍
 type: post
 layout: post
 tags: 

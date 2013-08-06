@@ -1,8 +1,5 @@
 --- 
-title: !binary |
-  W1B5dGhvbl3lkIzmraXkuKTlj7BMaW51eCBQQ+S4iueahOWuieijhei9r+S7
-  tg==
-
+title: 同步两台Linux系统的软件
 type: post
 layout: post
 tags: 

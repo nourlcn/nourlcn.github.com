@@ -1,7 +1,5 @@
 --- 
-title: !binary |
-  5Li65L2g55qEcGFnZea3u+WKoEdvb2dsZSsx5oyJ6ZKu
-
+title: 在你的页面增加Google+按钮
 type: post
 layout: post
 tags: 

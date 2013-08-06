@@ -1,7 +1,5 @@
 --- 
-title: !binary |
-  6K+l5a2m5ZOq56eN57yW56iL6K+t6KiA77yf
-
+title: 应该学习哪种编程语言？
 type: post
 layout: post
 tags: 

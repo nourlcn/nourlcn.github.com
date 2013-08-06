@@ -1,7 +1,5 @@
 --- 
-title: !binary |
-  W1B5dGhvbl3liKDpmaTku6PnoIHkuK3nmoTms6jph4o=
-
+title: Python实现批量删除代码注释
 type: post
 layout: post
 tags: 

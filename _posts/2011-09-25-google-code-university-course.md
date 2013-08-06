@@ -1,7 +1,5 @@
 --- 
-title: !binary |
-  R29vZ2xlIENvZGUgVW5pdmVyc2l0eeaPkOS+m+eahOivvueoiw==
-
+title: Google 提供的开放课程
 type: post
 layout: post
 tags: 

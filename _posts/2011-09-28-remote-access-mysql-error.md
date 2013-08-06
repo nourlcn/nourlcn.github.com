@@ -1,7 +1,5 @@
 --- 
-title: !binary |
-  6L+c56iL6K6/6ZeuTXlzcWzkuKTkuKrplJnor68=
-
+title: 远程访问MySQL提示出错
 type: post
 layout: post
 tags: 

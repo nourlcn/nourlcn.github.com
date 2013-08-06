@@ -1,8 +1,5 @@
 --- 
-title: !binary |
-  QmxvZ2dlcitHb29nbGUgY29kZSBwcmV0dGlmeeWunueOsOS7o+eggemrmOS6
-  ruaYvuekug==
-
+title: Blogger中通过Google Prettify实现代码高亮
 type: post
 layout: post
 tags: 

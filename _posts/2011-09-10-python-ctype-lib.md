@@ -1,7 +1,5 @@
 --- 
-title: !binary |
-  UHl0aG9u5Lit55qEQ3R5cGXlupM=
-
+title: Python Ctype库介绍
 type: post
 layout: post
 tags: 

@@ -1,7 +1,5 @@
 --- 
-title: !binary |
-  TGludXgvVWJ1bnR15LiK5a6J6KOFZHJvcGJveA==
-
+title: Ubuntu上安装Dropbox(破墙)
 type: post
 layout: post
 tags: 
