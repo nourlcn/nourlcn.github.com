@@ -1,7 +1,5 @@
---- 
-title: !binary |
-  5L2/55SobWFpbCBsaXN055qE4oCc5r2c6KeE5YiZ4oCd
-
+---
+title:  mail list order
 type: post
 layout: post
 tags: 

@@ -1,7 +1,5 @@
---- 
-title: !binary |
-  5L2/55SodWJ1bnR155yL5LiW55WM5p2v
-
+---
+title:  worldcup on linux
 type: post
 layout: post
 tags: 

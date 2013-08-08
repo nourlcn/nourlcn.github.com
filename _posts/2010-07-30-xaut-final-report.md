@@ -1,7 +1,5 @@
---- 
-title: !binary |
-  5q+V5Lia5Y+R6KiAKOacgOe7iOeJiCk=
-
+---
+title:  xaut final report
 type: post
 layout: post
 tags: 

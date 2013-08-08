@@ -1,7 +1,5 @@
---- 
-title: !binary |
-  5L+u5pS5d29yZHByZXNzIFVSTOWQjuaXoOazleiuv+mXrijop6PlhrMp
-
+---
+title:  wordpress modify base url
 type: post
 layout: post
 tags: 

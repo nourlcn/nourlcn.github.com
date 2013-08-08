@@ -1,8 +1,5 @@
---- 
-title: !binary |
-  RmlyZWZveOS4i+S9v+eUqFNTSOiuv+mXrkZhY2Vib29r44CBVHdpdHRlcuet
-  iee9keermQ==
-
+---
+title:  firefox ssh fb twitter
 type: post
 layout: post
 tags: 

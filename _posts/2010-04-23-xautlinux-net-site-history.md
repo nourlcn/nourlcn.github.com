@@ -1,7 +1,5 @@
---- 
-title: !binary |
-  6LS66KW/55CG5belTGludXjlsI/nu4TnvZHnq5nkuIrnur/vvIE=
-
+---
+title:  xautlinux net site history
 type: post
 layout: post
 tags: 

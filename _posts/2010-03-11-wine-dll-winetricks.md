@@ -1,8 +1,5 @@
---- 
-title: !binary |
-  6Kej5Yazd2luZeWuieijhei9r+S7tue8uuWwkWRsbOeahOmXrumimC0tLVdp
-  bmV0cmlja3M=
-
+---
+title:  wine dll winetricks
 type: post
 layout: post
 tags: 

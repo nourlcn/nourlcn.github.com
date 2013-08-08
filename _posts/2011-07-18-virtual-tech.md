@@ -1,7 +1,5 @@
---- 
-title: !binary |
-  6Jma5ouf5YyW
-
+---
+title:  virtual tech
 type: post
 layout: post
 tags: 

@@ -1,7 +1,5 @@
---- 
-title: !binary |
-  6KW/5a6J55CG5bel6ZSQ5o236K6k6K+BTGludXjkuIvkuIrnvZE=
-
+---
+title:  xaut linux login client
 type: post
 layout: post
 tags: 

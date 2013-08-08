@@ -1,7 +1,5 @@
---- 
-title: !binary |
-  W1B5dGhvbl1b5o+S5YWl5o6S5bqPXWluc2VydFNvcnQucHk=
-
+---
+title:  python insert sort
 type: post
 layout: post
 tags: 

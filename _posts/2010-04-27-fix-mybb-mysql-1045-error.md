@@ -1,7 +1,5 @@
---- 
-title: !binary |
-  6Kej5YazbXlCQui/nuaOpU15c3Fs5pWw5o2u5bqTMTA0NemUmeivrw==
-
+---
+title:  fix mybb mysql 1045 error
 type: post
 layout: post
 tags: 

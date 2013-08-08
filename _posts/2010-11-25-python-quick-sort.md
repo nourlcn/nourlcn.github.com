@@ -1,7 +1,5 @@
---- 
-title: !binary |
-  W3B5dGhvbl1b5b+r6YCf5o6S5bqPXXF1aWNrU29ydC5weQ==
-
+---
+title:  python quick sort
 type: post
 layout: post
 tags: 

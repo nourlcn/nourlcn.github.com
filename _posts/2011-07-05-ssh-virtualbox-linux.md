@@ -1,7 +1,5 @@
---- 
-title: !binary |
-  5L2/55SoU1NI6K6/6ZeuVmlydHVhbEJveOWGhUxpbnV4
-
+---
+title:  ssh virtualbox linux
 type: post
 layout: post
 tags: 

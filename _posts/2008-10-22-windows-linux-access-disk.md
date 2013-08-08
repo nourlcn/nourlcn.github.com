@@ -1,8 +1,5 @@
---- 
-title: !binary |
-  d2luZG93cytsaW51eOWPjOezu+e7n+S6kuebuOiuv+mXruehrOebmOWIhuWM
-  uueahOaWueazlQ==
-
+---
+title:  windows linux access disk
 type: post
 layout: post
 tags: 

@@ -1,7 +1,5 @@
---- 
-title: !binary |
-  ZGViaWFu5LiL6YWN572uaGlnaHR0cGQrbHhy
-
+---
+title:  use lighttpd intro
 type: post
 layout: post
 tags: 

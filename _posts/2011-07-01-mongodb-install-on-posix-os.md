@@ -1,7 +1,5 @@
---- 
-title: !binary |
-  UE9TSVjns7vnu5/kuIvlronoo4VNb25nb0RC
-
+---
+title:  mongodb install on posix os
 type: post
 layout: post
 tags: 

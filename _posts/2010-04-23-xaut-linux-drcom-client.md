@@ -1,7 +1,5 @@
---- 
-title: !binary |
-  TGludXjkuIvkvb/nlKh3aW5lK0RyY29t5LiK5qCh5Zut572R6YCa
-
+---
+title:  xaut linux drcom client
 type: post
 layout: post
 tags: 

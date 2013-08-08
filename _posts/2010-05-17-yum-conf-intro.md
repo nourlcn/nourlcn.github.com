@@ -1,7 +1,5 @@
---- 
-title: !binary |
-  eXVtLmNvbmbmtYXmnpA=
-
+---
+title:  yum conf intro
 type: post
 layout: post
 tags: 

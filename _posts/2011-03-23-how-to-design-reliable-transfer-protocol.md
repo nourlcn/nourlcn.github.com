@@ -1,7 +1,5 @@
---- 
-title: !binary |
-  5aaC5L2V6K6+6K6h5Y+v6Z2g5Lyg6L6T5Y2P6K6u77yf
-
+---
+title:  how to design reliable transfer protocol
 type: post
 layout: post
 tags: 

@@ -1,7 +1,5 @@
---- 
-title: !binary |
-  5o6o6I2Q5Yeg5LiqeXVt5rqQ
-
+---
+title:  ubuntu sources list
 type: post
 layout: post
 tags: 

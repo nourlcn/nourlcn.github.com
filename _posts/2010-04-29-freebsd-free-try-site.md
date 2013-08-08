@@ -1,7 +1,5 @@
---- 
-title: !binary |
-  6L+c56iL6K+V55SoRnJlZUJTRA==
-
+---
+title:  freebsd free try site
 type: post
 layout: post
 tags: 

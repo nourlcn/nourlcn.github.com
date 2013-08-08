@@ -1,7 +1,5 @@
---- 
-title: !binary |
-  5rWF5p6QKi5yZXBvIOaWh+S7tg==
-
+---
+title:  yum repo intro
 type: post
 layout: post
 tags: 

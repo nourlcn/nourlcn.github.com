@@ -1,7 +1,5 @@
---- 
-title: !binary |
-  W1B5dGhvbl1b5YaS5rOh5o6S5bqPXUJ1YmJsZVNvcnQ=
-
+---
+title:  python bubble sort
 type: post
 layout: post
 tags: 

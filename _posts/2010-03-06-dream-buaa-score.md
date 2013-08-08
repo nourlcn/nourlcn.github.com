@@ -1,7 +1,5 @@
---- 
-title: !binary |
-  5YyX6Iiq6ICD56CU6K6w
-
+---
+title:  dream buaa score
 type: post
 layout: post
 tags: 

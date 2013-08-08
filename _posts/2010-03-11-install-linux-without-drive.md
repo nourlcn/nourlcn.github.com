@@ -1,7 +1,5 @@
---- 
-title: !binary |
-  5peg5YWJ6amxV2luZG93c+S4i+WuieijhUxpbnV4
-
+---
+title:  install linux without drive
 type: post
 layout: post
 tags: 

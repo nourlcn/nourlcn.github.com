@@ -1,7 +1,5 @@
---- 
-title: !binary |
-  UHnkuK3lrp7njrDmqKHmnb/nmoTljIU=
-
+---
+title:  py template
 type: post
 layout: post
 tags: 

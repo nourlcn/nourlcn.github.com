@@ -1,7 +1,5 @@
---- 
-title: !binary |
-  W+aUtuiXj11SSEVMNeS9v+eUqENlbnRPU+a6kOWNh+e6pw==
-
+---
+title:  rhel with centos yum sources
 type: post
 layout: post
 tags: 

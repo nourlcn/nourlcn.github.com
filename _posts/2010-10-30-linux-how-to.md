@@ -1,7 +1,5 @@
---- 
-title: !binary |
-  TGludXjnmoTlv6vmjbfplK7lkozkuLvopoHlkb3ku6Q=
-
+---
+title:  linux how to
 type: post
 layout: post
 tags: 

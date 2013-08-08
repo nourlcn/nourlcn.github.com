@@ -1,7 +1,5 @@
---- 
-title: !binary |
-  SERGUyxHRlPnmoTlvIDmupDlrp7njrA=
-
+---
+title:  hdfs and gfs
 type: post
 layout: post
 tags: 

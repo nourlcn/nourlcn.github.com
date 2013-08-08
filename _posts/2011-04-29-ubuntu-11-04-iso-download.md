@@ -1,8 +1,5 @@
---- 
-title: !binary |
-  VWJ1bnR1IDExLjA0IOato+W8j+eJiElTT+mVnOWDj+aWh+S7tuS4i+i9veWc
-  sOWdgA==
-
+---
+title:  ubuntu 11 04 iso download
 type: post
 layout: post
 tags: 

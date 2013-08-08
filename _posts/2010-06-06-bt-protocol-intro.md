@@ -1,7 +1,5 @@
---- 
-title: !binary |
-  QlTljY/orq7nmoTlt6XkvZzljp/nkIY=
-
+---
+title:  bt protocol intro
 type: post
 layout: post
 tags: 

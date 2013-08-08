@@ -1,7 +1,5 @@
---- 
-title: !binary |
-  5b+Z56KM55qE5LiA5aSp
-
+---
+title:  fight for buaa
 type: post
 layout: post
 tags: 

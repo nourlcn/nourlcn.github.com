@@ -1,7 +1,5 @@
---- 
-title: !binary |
-  UHl0aG9u5a6e546w5pyA566A5Y2V55qE5o6o6I2Q
-
+---
+title:  python recommendation
 type: post
 layout: post
 tags: 

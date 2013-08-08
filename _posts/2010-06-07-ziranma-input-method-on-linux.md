@@ -1,7 +1,5 @@
---- 
-title: !binary |
-  dWJ1bnR1MTAuMDTlkK/nlKjoh6rnhLbnoIHovpPlhaXms5U=
-
+---
+title:  ziranma input method on linux
 type: post
 layout: post
 tags: 

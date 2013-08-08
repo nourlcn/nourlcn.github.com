@@ -1,7 +1,5 @@
---- 
-title: !binary |
-  5YiG5biD5byP57O757uf
-
+---
+title:  distributed system
 type: post
 layout: post
 tags: 

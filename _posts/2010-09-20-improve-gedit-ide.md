@@ -1,7 +1,5 @@
---- 
-title: !binary |
-  5oqKZ2VkaXTmiZPpgKDmiJDlvLrlpKfnmoRDL0MrK+ivreiogElERQ==
-
+---
+title:  improve gedit ide
 type: post
 layout: post
 tags: 

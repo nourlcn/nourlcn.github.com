@@ -1,8 +1,5 @@
---- 
-title: !binary |
-  dWJ1bnR1MTAuMDRCZXRhMuWuieijheWQjuayoeaciXdpbmRvd3PlkK/liqjp
-  obnvvIjlj4zns7vnu5/vvIk=
-
+---
+title:  fix windows login after ubuntu beta
 type: post
 layout: post
 tags: 

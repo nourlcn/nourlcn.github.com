@@ -1,7 +1,5 @@
---- 
-title: !binary |
-  R29vZ2xl5o+Q5L6b5YWN6LS5RE5T5pyN5Yqh
-
+---
+title:  google dns
 type: post
 layout: post
 tags: 

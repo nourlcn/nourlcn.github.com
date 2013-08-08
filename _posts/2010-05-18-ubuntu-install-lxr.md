@@ -1,7 +1,5 @@
---- 
-title: !binary |
-  dWJ1bnR1MTAuMDTkuIvlronoo4VMWFLmupDnoIHpmIXor7vlt6Xlhbc=
-
+---
+title:  ubuntu install lxr
 type: post
 layout: post
 tags: 

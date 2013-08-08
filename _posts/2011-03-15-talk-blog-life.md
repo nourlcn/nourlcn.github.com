@@ -1,7 +1,5 @@
---- 
-title: !binary |
-  5L2T6aqM5ZKM5a6e5oiY
-
+---
+title:  talk blog life
 type: post
 layout: post
 tags: 

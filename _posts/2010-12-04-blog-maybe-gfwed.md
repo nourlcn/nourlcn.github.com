@@ -1,7 +1,5 @@
---- 
-title: !binary |
-  5aWg5Z+66LS0
-
+---
+title:  blog maybe gfwed
 type: post
 layout: post
 tags: 

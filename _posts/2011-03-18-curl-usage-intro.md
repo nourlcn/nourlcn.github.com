@@ -1,7 +1,5 @@
---- 
-title: !binary |
-  Y3VybOeUqOazlWRlbW8=
-
+---
+title:  curl usage intro
 type: post
 layout: post
 tags: 

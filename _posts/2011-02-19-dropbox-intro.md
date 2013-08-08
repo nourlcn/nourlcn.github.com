@@ -1,7 +1,5 @@
---- 
-title: !binary |
-  MeWIhumSn+aJqeWuuURyb3Bib3ggMUc=
-
+---
+title:  dropbox intro
 type: post
 layout: post
 tags: 

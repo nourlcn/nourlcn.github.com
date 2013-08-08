@@ -1,7 +1,5 @@
---- 
-title: !binary |
-  5oiR55qE55CG6Kej77ya5qGG6K6h566X
-
+---
+title:  box computing talk
 type: post
 layout: post
 tags: 

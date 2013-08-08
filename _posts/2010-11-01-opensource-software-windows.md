@@ -1,7 +1,5 @@
---- 
-title: !binary |
-  d2luZG93c+S4iuWPr+eUqOeahOW8gOa6kOi9r+S7tg==
-
+---
+title:  opensource software windows
 type: post
 layout: post
 tags: 

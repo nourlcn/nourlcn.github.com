@@ -1,7 +1,5 @@
---- 
-title: !binary |
-  d29yZHByZXNz5pi+56S65paH56ug5rWP6KeI5qyh5pWw
-
+---
+title:  wordpress add view count
 type: post
 layout: post
 tags: 

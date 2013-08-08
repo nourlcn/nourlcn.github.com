@@ -1,7 +1,5 @@
---- 
-title: !binary |
-  d29yZHByZXNz5Li76aKY5Lit5paH5Lmx56CB6Kej5Yaz
-
+---
+title:  wordpress mysql config encoding
 type: post
 layout: post
 tags: 

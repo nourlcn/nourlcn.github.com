@@ -1,7 +1,5 @@
---- 
-title: !binary |
-  S0lTU+WOn+WImQ==
-
+---
+title:  kiss in software
 type: post
 layout: post
 tags: 

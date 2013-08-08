@@ -1,7 +1,5 @@
---- 
-title: !binary |
-  566X5rOV5LiO5pWw5o2u57uT5p6E6K+N5YW4
-
+---
+title:  algorithm data structure dict
 type: post
 layout: post
 tags: 

@@ -1,7 +1,5 @@
---- 
-title: !binary |
-  d2ViLnB5IGNvb2tib29rIOS4reaWh+eJiA==
-
+---
+title:  web py cookbook zh
 type: post
 layout: post
 tags: 

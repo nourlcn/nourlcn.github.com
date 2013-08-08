@@ -1,8 +1,5 @@
---- 
-title: !binary |
-  57uZd29yZHByZXNz5paH56ug5re75Yqg54mI5p2DfOWHuuWkhOetieWbuuWu
-  muS/oeaBrw==
-
+---
+title:  wordpress add author info
 type: post
 layout: post
 tags: 

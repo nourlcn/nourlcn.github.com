@@ -1,7 +1,5 @@
---- 
-title: !binary |
-  d2lu5LiL56Gs55uY6KOFR2VudG9v
-
+---
+title:  gentoo install win
 type: post
 layout: post
 tags: 

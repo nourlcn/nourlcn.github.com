@@ -1,7 +1,5 @@
---- 
-title: !binary |
-  c3RydWN0IGlwaGRy5rOo6YeK
-
+---
+title:  kernel ip head source
 type: post
 layout: post
 tags: 

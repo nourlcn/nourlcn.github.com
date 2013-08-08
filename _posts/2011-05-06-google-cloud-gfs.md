@@ -1,7 +1,5 @@
---- 
-title: !binary |
-  R29vZ2xl5LqR6K6h566X5LmLR0ZT
-
+---
+title:  google cloud gfs
 type: post
 layout: post
 tags: 

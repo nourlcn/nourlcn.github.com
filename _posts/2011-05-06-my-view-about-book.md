@@ -1,7 +1,5 @@
---- 
-title: !binary |
-  5oiR55qE6K+E5Lmm6KeC
-
+---
+title:  my view about book
 type: post
 layout: post
 tags: 

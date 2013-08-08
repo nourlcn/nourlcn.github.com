@@ -1,7 +1,5 @@
---- 
-title: !binary |
-  SVBzZWPliJ3mjqI=
-
+---
+title:  learn ipsec
 type: post
 layout: post
 tags: 

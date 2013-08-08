@@ -1,7 +1,5 @@
---- 
-title: !binary |
-  VENQL0lQ56yU6K6w
-
+---
+title:  tcp ip intro
 type: post
 layout: post
 tags: 

@@ -1,7 +1,5 @@
---- 
-title: !binary |
-  R29vZ2xl5LqR6K6h566X5LmLQ2h1YmJ5
-
+---
+title:  google cloud chubby
 type: post
 layout: post
 tags: 

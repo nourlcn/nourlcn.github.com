@@ -1,7 +1,5 @@
---- 
-title: !binary |
-  cHl0aG9u6YWN572ucGNhcOWSjGRwa3TlubblvIDlj5FEZW1v
-
+---
+title:  python pcap dpkt demo
 type: post
 layout: post
 tags: 

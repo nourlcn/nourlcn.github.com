@@ -1,7 +1,5 @@
---- 
-title: !binary |
-  5o6o6I2Q5LiJ5qy+6L2v5Lu2
-
+---
+title:  software suggestion
 type: post
 layout: post
 tags: 

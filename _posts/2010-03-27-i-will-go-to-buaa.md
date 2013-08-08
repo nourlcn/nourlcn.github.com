@@ -1,7 +1,5 @@
---- 
-title: !binary |
-  6Lef5YGa5qKm5LiA5qC3
-
+---
+title:  i will go to buaa
 type: post
 layout: post
 tags: 

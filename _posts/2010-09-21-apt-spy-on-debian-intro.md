@@ -1,7 +1,5 @@
---- 
-title: !binary |
-  YXB0LXNweeeUqOazlQ==
-
+---
+title:  apt spy on debian intro
 type: post
 layout: post
 tags: 

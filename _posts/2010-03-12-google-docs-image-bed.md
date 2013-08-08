@@ -1,7 +1,5 @@
---- 
-title: !binary |
-  5L2/55SoR29vZ2xlRG9jc+WklumTvuWbvueJhw==
-
+---
+title:  google docs image bed
 type: post
 layout: post
 tags: 
