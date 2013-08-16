@@ -1,5 +1,5 @@
 ---
-title:  xautlinux net site history
+title: XAUTLINUX网站历史
 type: post
 layout: post
 tags: 

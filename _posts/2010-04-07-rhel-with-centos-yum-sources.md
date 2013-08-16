@@ -1,5 +1,5 @@
 ---
-title:  rhel with centos yum sources
+title: Redhat使用CentOS的yum源进行更新
 type: post
 layout: post
 tags: 

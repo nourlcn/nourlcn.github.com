@@ -1,5 +1,5 @@
 ---
-title:  09buaa second answer
+title: 09年北航计算机上机题目答案(第二道)
 type: post
 layout: post
 tags: 

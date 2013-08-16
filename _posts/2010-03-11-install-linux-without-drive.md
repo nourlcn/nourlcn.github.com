@@ -1,5 +1,5 @@
 ---
-title:  install linux without drive
+title: 无光驱安装Linux系统
 type: post
 layout: post
 tags: 

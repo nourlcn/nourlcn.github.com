@@ -1,5 +1,5 @@
 ---
-title:  google dns
+title: 使用Google提供的DNS
 type: post
 layout: post
 tags: 

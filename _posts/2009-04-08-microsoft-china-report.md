@@ -1,5 +1,5 @@
 ---
-title:  microsoft china report
+title:  听微软中国报告有感
 type: post
 layout: post
 tags: 

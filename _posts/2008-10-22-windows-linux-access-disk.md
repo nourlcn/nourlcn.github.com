@@ -1,5 +1,5 @@
 ---
-title:  windows linux access disk
+title:  windows Linux 互相访问分区的方法
 type: post
 layout: post
 tags: 

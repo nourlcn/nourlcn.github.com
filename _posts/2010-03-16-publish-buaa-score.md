@@ -1,5 +1,5 @@
 ---
-title:  publish buaa score
+title: 考研成绩
 type: post
 layout: post
 tags: 

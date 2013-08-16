@@ -1,5 +1,5 @@
 ---
-title:  xaut linux drcom client
+title: Linux下网通上网问题解决方法
 type: post
 layout: post
 tags: 

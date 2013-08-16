@@ -1,5 +1,5 @@
 ---
-title:  fight for buaa
+title: 继续奋斗
 type: post
 layout: post
 tags: 

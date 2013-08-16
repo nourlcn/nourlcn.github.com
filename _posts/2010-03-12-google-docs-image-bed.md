@@ -1,5 +1,5 @@
 ---
-title:  google docs image bed
+title: 谷歌文档作博客图床
 type: post
 layout: post
 tags: 

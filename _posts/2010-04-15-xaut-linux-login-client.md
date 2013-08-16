@@ -1,5 +1,5 @@
 ---
-title:  xaut linux login client
+title: Linux下登录校园网
 type: post
 layout: post
 tags: 

@@ -1,5 +1,5 @@
 ---
-title:  i will go to buaa
+title: 考研录取
 type: post
 layout: post
 tags: 

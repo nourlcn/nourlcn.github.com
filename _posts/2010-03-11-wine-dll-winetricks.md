@@ -1,5 +1,5 @@
 ---
-title:  wine dll winetricks
+title:  安装wine依赖的dll库
 type: post
 layout: post
 tags: 

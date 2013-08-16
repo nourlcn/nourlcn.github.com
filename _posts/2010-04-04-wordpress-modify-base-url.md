@@ -1,5 +1,5 @@
 ---
-title:  wordpress modify base url
+title: 修改Wordpress的URL
 type: post
 layout: post
 tags: 
